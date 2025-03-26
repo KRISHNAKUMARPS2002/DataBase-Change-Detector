@@ -1,53 +1,48 @@
 # DB Change Detector
 
-A Node.js-based synchronization service that monitors a local PostgreSQL database for changes and updates a remote (web) PostgreSQL database automatically. This project uses PostgreSQL triggers to log changes (inserts, updates, and deletes) into a `sync_logs` table, which the Node.js service periodically processes to keep the remote database in sync.
+A Node.js-based synchronization service that monitors a local PostgreSQL database for changes and automatically updates a remote (web) PostgreSQL database. The project uses PostgreSQL triggers (configured separately) to log changes (inserts, updates, and deletes) into a `sync_logs` table, and a Node.js service periodically processes these logs to keep the remote database in sync.
 
 ## Features
 
-- **Real-Time Sync:** Detects and synchronizes changes from a local DB to a remote DB.
-- **Change Detection:** Uses PostgreSQL triggers to log changes (insert, update, delete) into a `sync_logs` table.
-- **Automated Processing:** A Node.js service with `node-cron` periodically reads the logs and applies changes to the remote database.
-- **Health Check Endpoint:** An Express-based endpoint to confirm that the service is running.
+- **Real-Time Sync:** Automatically synchronizes changes from the local database to the remote database.
+- **Change Detection:** Uses PostgreSQL triggers to log changes into a `sync_logs` table.
+- **Automated Processing:** A Node.js service (using `node-cron`) periodically processes logged changes.
+- **Health Check Endpoint:** An Express-based endpoint to verify that the service is running.
 
 ## Prerequisites
 
 - Node.js (v12 or higher)
-- PostgreSQL (installed and running on both local and remote servers)
+- PostgreSQL (running on both local and remote servers)
 - npm (for dependency management)
+
+> **Note:** Database tables and triggers should be set up separately as per your project requirements.
 
 ## Setup and Installation
 
 ### 1. Clone the Repository
 
-```bash
-git clone <repository_url>
-cd <repository_directory>
+### npm install pg dotenv node-cron express
 
-
-### 2. Install Dependencies
-
-npm install pg dotenv node-cron express
-
-### 3. Configure Environment Variables
-Create a .env file in the root of the project and update it with your actual settings:
-
+### Create a .env
 
 # Local Database Settings
-LOCAL_DB_HOST=localhost
-LOCAL_DB_PORT=5432
-LOCAL_DB_USER=your_local_user
-LOCAL_DB_PASS=your_local_pass
-LOCAL_DB_NAME=Detector-Test-DB
+LOCAL_DB_HOST=yours
+LOCAL_DB_PORT=yours
+LOCAL_DB_USER=yours
+LOCAL_DB_PASS=yours
+LOCAL_DB_NAME=yours
 
 # Web (Remote) Database Settings
-WEB_DB_HOST=88.222.212.14
-WEB_DB_PORT=5432
-WEB_DB_USER=postgres
-WEB_DB_PASS=info@imc
-WEB_DB_NAME=web_db_name
+WEB_DB_HOST=yours
+WEB_DB_PORT=yours
+WEB_DB_USER=yours
+WEB_DB_PASS=yours
+WEB_DB_NAME=yours
 
 # Sync Interval (in seconds)
-SYNC_INTERVAL=10
+SYNC_INTERVAL=your_wish
 
 # Express Server Port for Health Check
-PORT=3000
+PORT=your_wish
+
+
