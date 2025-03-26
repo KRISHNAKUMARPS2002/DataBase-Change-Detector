@@ -25,24 +25,24 @@ A Node.js-based synchronization service that monitors a local PostgreSQL databas
 
 ### Create a .env
 
-# Local Database Settings
-LOCAL_DB_HOST=yours
-LOCAL_DB_PORT=yours
-LOCAL_DB_USER=yours
-LOCAL_DB_PASS=yours
-LOCAL_DB_NAME=yours
+## Local Database Settings
+-LOCAL_DB_HOST=yours
+-LOCAL_DB_PORT=yours
+-LOCAL_DB_USER=yours
+-LOCAL_DB_PASS=yours
+-LOCAL_DB_NAME=yours
 
-# Web (Remote) Database Settings
-WEB_DB_HOST=yours
-WEB_DB_PORT=yours
-WEB_DB_USER=yours
-WEB_DB_PASS=yours
-WEB_DB_NAME=yours
+## Web (Remote) Database Settings
+-WEB_DB_HOST=yours
+-WEB_DB_PORT=yours
+-WEB_DB_USER=yours
+-WEB_DB_PASS=yours
+-WEB_DB_NAME=yours
 
-# Sync Interval (in seconds)
-SYNC_INTERVAL=your_wish
+## Sync Interval (in seconds)
+-SYNC_INTERVAL=your_wish
 
-# Express Server Port for Health Check
-PORT=your_wish
+## Express Server Port for Health Check
+-PORT=your_wish
 
 
