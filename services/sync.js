@@ -16,7 +16,10 @@ const syncStats = {
 
 // Sync data to the web database
 async function syncToWebDB(diffData) {
-  logger.info("Starting sync to web database");
+  logger.info(
+    "Received data to sync:",
+    JSON.stringify(diffData.acc_users, null, 2)
+  );
 
   const webDB = getWebDB();
   const client = await webDB.connect();
@@ -135,6 +138,11 @@ async function syncProcess() {
       oldSnapshot.acc_users,
       newData.acc_users,
       "id"
+    );
+
+    console.log(
+      "Computed diff for acc_users:",
+      JSON.stringify(diffAccUsers, null, 2)
     );
 
     const diffData = {

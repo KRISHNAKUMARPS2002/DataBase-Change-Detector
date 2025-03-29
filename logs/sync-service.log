@@ -4560,3 +4560,1480 @@
 2025-03-29T10:12:31.473Z info: Server is running on port 5000
 2025-03-29T10:12:31.474Z info: Sync service started successfully
 2025-03-29T10:12:32.631Z info: Shutting down sync service...
+2025-03-29T10:43:34.739Z info: Web database connected successfully
+2025-03-29T10:43:34.768Z info: Started database connections
+2025-03-29T10:43:34.768Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:43:34.789Z info: Server is running on port 5000
+2025-03-29T10:43:34.790Z info: Sync service started successfully
+2025-03-29T10:43:40.813Z info: Starting sync process...
+2025-03-29T10:43:40.815Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:43:43.340Z info: Local database connected successfully
+2025-03-29T10:43:43.340Z info: Executing acc_master query
+2025-03-29T10:43:43.347Z info: Retrieved 382 records from acc_master
+2025-03-29T10:43:43.347Z info: Executing acc_users query
+2025-03-29T10:43:43.360Z info: Retrieved 44 records from acc_users
+2025-03-29T10:43:43.891Z info: Local database connection closed
+2025-03-29T10:43:43.892Z info: Loading previous database snapshot
+2025-03-29T10:43:43.897Z info: Snapshot loaded successfully
+2025-03-29T10:43:43.898Z info: Computing diff using key field: code
+2025-03-29T10:43:43.908Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:43:43.908Z info: Computing diff using key field: id
+2025-03-29T10:43:43.912Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:43:43.913Z info: No changes detected, skipping database update
+2025-03-29T10:43:43.914Z info: Saving current database snapshot
+2025-03-29T10:43:43.916Z info: Previous snapshot backed up successfully
+2025-03-29T10:43:43.920Z info: Snapshot saved successfully
+2025-03-29T10:43:43.920Z info: Sync process complete. Duration: 3107ms
+2025-03-29T10:43:44.680Z info: Web database connected successfully
+2025-03-29T10:43:44.683Z info: Started database connections
+2025-03-29T10:43:44.684Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:43:44.690Z info: Server is running on port 5000
+2025-03-29T10:43:44.691Z info: Sync service started successfully
+2025-03-29T10:43:50.739Z info: Starting sync process...
+2025-03-29T10:43:50.741Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:43:51.888Z info: Local database connected successfully
+2025-03-29T10:43:51.888Z info: Executing acc_master query
+2025-03-29T10:43:51.899Z info: Retrieved 382 records from acc_master
+2025-03-29T10:43:51.900Z info: Executing acc_users query
+2025-03-29T10:43:51.931Z info: Retrieved 44 records from acc_users
+2025-03-29T10:43:51.972Z info: Local database connection closed
+2025-03-29T10:43:51.973Z info: Loading previous database snapshot
+2025-03-29T10:43:51.977Z info: Snapshot loaded successfully
+2025-03-29T10:43:51.978Z info: Computing diff using key field: code
+2025-03-29T10:43:51.984Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:43:51.985Z info: Computing diff using key field: id
+2025-03-29T10:43:51.988Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:43:51.990Z info: No changes detected, skipping database update
+2025-03-29T10:43:51.990Z info: Saving current database snapshot
+2025-03-29T10:43:51.992Z info: Previous snapshot backed up successfully
+2025-03-29T10:43:51.997Z info: Snapshot saved successfully
+2025-03-29T10:43:51.997Z info: Sync process complete. Duration: 1258ms
+2025-03-29T10:43:52.687Z info: Web database connected successfully
+2025-03-29T10:43:52.689Z info: Started database connections
+2025-03-29T10:43:52.690Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:43:52.695Z info: Server is running on port 5000
+2025-03-29T10:43:52.696Z info: Sync service started successfully
+2025-03-29T10:44:00.765Z info: Starting sync process...
+2025-03-29T10:44:00.766Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:44:01.331Z info: Local database connected successfully
+2025-03-29T10:44:01.331Z info: Executing acc_master query
+2025-03-29T10:44:01.337Z info: Retrieved 382 records from acc_master
+2025-03-29T10:44:01.338Z info: Executing acc_users query
+2025-03-29T10:44:01.349Z info: Retrieved 44 records from acc_users
+2025-03-29T10:44:01.920Z info: Local database connection closed
+2025-03-29T10:44:01.921Z info: Loading previous database snapshot
+2025-03-29T10:44:01.928Z info: Snapshot loaded successfully
+2025-03-29T10:44:01.928Z info: Computing diff using key field: code
+2025-03-29T10:44:01.934Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:44:01.935Z info: Computing diff using key field: id
+2025-03-29T10:44:01.939Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:44:01.941Z info: No changes detected, skipping database update
+2025-03-29T10:44:01.942Z info: Saving current database snapshot
+2025-03-29T10:44:01.944Z info: Previous snapshot backed up successfully
+2025-03-29T10:44:01.948Z info: Snapshot saved successfully
+2025-03-29T10:44:01.948Z info: Sync process complete. Duration: 1183ms
+2025-03-29T10:44:02.662Z info: Web database connected successfully
+2025-03-29T10:44:02.665Z info: Started database connections
+2025-03-29T10:44:02.665Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:44:02.671Z info: Server is running on port 5000
+2025-03-29T10:44:02.671Z info: Sync service started successfully
+2025-03-29T10:44:10.699Z info: Starting sync process...
+2025-03-29T10:44:10.699Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:44:11.827Z info: Local database connected successfully
+2025-03-29T10:44:11.828Z info: Executing acc_master query
+2025-03-29T10:44:11.833Z info: Retrieved 382 records from acc_master
+2025-03-29T10:44:11.834Z info: Executing acc_users query
+2025-03-29T10:44:11.852Z info: Retrieved 44 records from acc_users
+2025-03-29T10:44:11.900Z info: Local database connection closed
+2025-03-29T10:44:11.902Z info: Loading previous database snapshot
+2025-03-29T10:44:11.907Z info: Snapshot loaded successfully
+2025-03-29T10:44:11.908Z info: Computing diff using key field: code
+2025-03-29T10:44:11.915Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:44:11.916Z info: Computing diff using key field: id
+2025-03-29T10:44:11.920Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:44:11.921Z info: No changes detected, skipping database update
+2025-03-29T10:44:11.922Z info: Saving current database snapshot
+2025-03-29T10:44:11.924Z info: Previous snapshot backed up successfully
+2025-03-29T10:44:11.928Z info: Snapshot saved successfully
+2025-03-29T10:44:11.929Z info: Sync process complete. Duration: 1231ms
+2025-03-29T10:44:12.604Z info: Web database connected successfully
+2025-03-29T10:44:12.607Z info: Started database connections
+2025-03-29T10:44:12.607Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:44:12.613Z info: Server is running on port 5000
+2025-03-29T10:44:12.614Z info: Sync service started successfully
+2025-03-29T10:44:20.670Z info: Starting sync process...
+2025-03-29T10:44:20.672Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:44:21.856Z info: Local database connected successfully
+2025-03-29T10:44:21.857Z info: Executing acc_master query
+2025-03-29T10:44:21.862Z info: Retrieved 382 records from acc_master
+2025-03-29T10:44:21.863Z info: Executing acc_users query
+2025-03-29T10:44:21.880Z info: Retrieved 44 records from acc_users
+2025-03-29T10:44:21.912Z info: Local database connection closed
+2025-03-29T10:44:21.913Z info: Loading previous database snapshot
+2025-03-29T10:44:21.919Z info: Snapshot loaded successfully
+2025-03-29T10:44:21.920Z info: Computing diff using key field: code
+2025-03-29T10:44:21.926Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:44:21.927Z info: Computing diff using key field: id
+2025-03-29T10:44:21.931Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:44:21.933Z info: No changes detected, skipping database update
+2025-03-29T10:44:21.933Z info: Saving current database snapshot
+2025-03-29T10:44:21.937Z info: Previous snapshot backed up successfully
+2025-03-29T10:44:21.943Z info: Snapshot saved successfully
+2025-03-29T10:44:21.943Z info: Sync process complete. Duration: 1273ms
+2025-03-29T10:44:22.642Z info: Web database connected successfully
+2025-03-29T10:44:22.644Z info: Started database connections
+2025-03-29T10:44:22.645Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:44:22.650Z info: Server is running on port 5000
+2025-03-29T10:44:22.651Z info: Sync service started successfully
+2025-03-29T10:44:30.715Z info: Starting sync process...
+2025-03-29T10:44:30.717Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:44:31.868Z info: Local database connected successfully
+2025-03-29T10:44:31.869Z info: Executing acc_master query
+2025-03-29T10:44:31.874Z info: Retrieved 382 records from acc_master
+2025-03-29T10:44:31.876Z info: Executing acc_users query
+2025-03-29T10:44:31.889Z info: Retrieved 44 records from acc_users
+2025-03-29T10:44:31.918Z info: Local database connection closed
+2025-03-29T10:44:31.919Z info: Loading previous database snapshot
+2025-03-29T10:44:31.927Z info: Snapshot loaded successfully
+2025-03-29T10:44:31.928Z info: Computing diff using key field: code
+2025-03-29T10:44:31.936Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:44:31.936Z info: Computing diff using key field: id
+2025-03-29T10:44:31.941Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:44:31.943Z info: No changes detected, skipping database update
+2025-03-29T10:44:31.944Z info: Saving current database snapshot
+2025-03-29T10:44:31.947Z info: Previous snapshot backed up successfully
+2025-03-29T10:44:31.952Z info: Snapshot saved successfully
+2025-03-29T10:44:31.952Z info: Sync process complete. Duration: 1238ms
+2025-03-29T10:44:32.701Z info: Web database connected successfully
+2025-03-29T10:44:32.710Z info: Started database connections
+2025-03-29T10:44:32.711Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:44:32.725Z info: Server is running on port 5000
+2025-03-29T10:44:32.726Z info: Sync service started successfully
+2025-03-29T10:44:40.788Z info: Starting sync process...
+2025-03-29T10:44:40.790Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:44:41.931Z info: Local database connected successfully
+2025-03-29T10:44:41.932Z info: Executing acc_master query
+2025-03-29T10:44:41.938Z info: Retrieved 382 records from acc_master
+2025-03-29T10:44:41.939Z info: Executing acc_users query
+2025-03-29T10:44:41.950Z info: Retrieved 44 records from acc_users
+2025-03-29T10:44:41.977Z info: Local database connection closed
+2025-03-29T10:44:41.978Z info: Loading previous database snapshot
+2025-03-29T10:44:41.985Z info: Snapshot loaded successfully
+2025-03-29T10:44:41.986Z info: Computing diff using key field: code
+2025-03-29T10:44:41.993Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:44:41.993Z info: Computing diff using key field: id
+2025-03-29T10:44:41.997Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:44:42.000Z info: No changes detected, skipping database update
+2025-03-29T10:44:42.000Z info: Saving current database snapshot
+2025-03-29T10:44:42.003Z info: Previous snapshot backed up successfully
+2025-03-29T10:44:42.007Z info: Snapshot saved successfully
+2025-03-29T10:44:42.008Z info: Sync process complete. Duration: 1220ms
+2025-03-29T10:44:42.750Z info: Web database connected successfully
+2025-03-29T10:44:42.753Z info: Started database connections
+2025-03-29T10:44:42.753Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:44:42.758Z info: Server is running on port 5000
+2025-03-29T10:44:42.758Z info: Sync service started successfully
+2025-03-29T10:44:50.801Z info: Starting sync process...
+2025-03-29T10:44:50.802Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:44:51.403Z info: Local database connected successfully
+2025-03-29T10:44:51.403Z info: Executing acc_master query
+2025-03-29T10:44:51.413Z info: Retrieved 382 records from acc_master
+2025-03-29T10:44:51.413Z info: Executing acc_users query
+2025-03-29T10:44:51.426Z info: Retrieved 44 records from acc_users
+2025-03-29T10:44:52.000Z info: Local database connection closed
+2025-03-29T10:44:52.002Z info: Loading previous database snapshot
+2025-03-29T10:44:52.014Z info: Snapshot loaded successfully
+2025-03-29T10:44:52.015Z info: Computing diff using key field: code
+2025-03-29T10:44:52.021Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:44:52.021Z info: Computing diff using key field: id
+2025-03-29T10:44:52.026Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:44:52.028Z info: No changes detected, skipping database update
+2025-03-29T10:44:52.028Z info: Saving current database snapshot
+2025-03-29T10:44:52.031Z info: Previous snapshot backed up successfully
+2025-03-29T10:44:52.034Z info: Snapshot saved successfully
+2025-03-29T10:44:52.035Z info: Sync process complete. Duration: 1234ms
+2025-03-29T10:44:52.699Z info: Web database connected successfully
+2025-03-29T10:44:52.705Z info: Started database connections
+2025-03-29T10:44:52.706Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:44:52.717Z info: Server is running on port 5000
+2025-03-29T10:44:52.718Z info: Sync service started successfully
+2025-03-29T10:45:00.773Z info: Starting sync process...
+2025-03-29T10:45:00.774Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:45:01.344Z info: Local database connected successfully
+2025-03-29T10:45:01.345Z info: Executing acc_master query
+2025-03-29T10:45:01.350Z info: Retrieved 382 records from acc_master
+2025-03-29T10:45:01.351Z info: Executing acc_users query
+2025-03-29T10:45:01.361Z info: Retrieved 44 records from acc_users
+2025-03-29T10:45:01.945Z info: Local database connection closed
+2025-03-29T10:45:01.947Z info: Loading previous database snapshot
+2025-03-29T10:45:01.953Z info: Snapshot loaded successfully
+2025-03-29T10:45:01.954Z info: Computing diff using key field: code
+2025-03-29T10:45:01.959Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:45:01.959Z info: Computing diff using key field: id
+2025-03-29T10:45:01.964Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:45:01.966Z info: No changes detected, skipping database update
+2025-03-29T10:45:01.966Z info: Saving current database snapshot
+2025-03-29T10:45:01.969Z info: Previous snapshot backed up successfully
+2025-03-29T10:45:01.973Z info: Snapshot saved successfully
+2025-03-29T10:45:01.973Z info: Sync process complete. Duration: 1200ms
+2025-03-29T10:45:02.664Z info: Web database connected successfully
+2025-03-29T10:45:02.668Z info: Started database connections
+2025-03-29T10:45:02.669Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:45:02.674Z info: Server is running on port 5000
+2025-03-29T10:45:02.675Z info: Sync service started successfully
+2025-03-29T10:45:10.710Z info: Starting sync process...
+2025-03-29T10:45:10.712Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:45:11.283Z info: Local database connected successfully
+2025-03-29T10:45:11.284Z info: Executing acc_master query
+2025-03-29T10:45:11.290Z info: Retrieved 382 records from acc_master
+2025-03-29T10:45:11.291Z info: Executing acc_users query
+2025-03-29T10:45:11.301Z info: Retrieved 44 records from acc_users
+2025-03-29T10:45:11.900Z info: Local database connection closed
+2025-03-29T10:45:11.902Z info: Loading previous database snapshot
+2025-03-29T10:45:11.910Z info: Snapshot loaded successfully
+2025-03-29T10:45:11.911Z info: Computing diff using key field: code
+2025-03-29T10:45:11.917Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:45:11.917Z info: Computing diff using key field: id
+2025-03-29T10:45:11.923Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:45:11.924Z info: No changes detected, skipping database update
+2025-03-29T10:45:11.925Z info: Saving current database snapshot
+2025-03-29T10:45:11.928Z info: Previous snapshot backed up successfully
+2025-03-29T10:45:11.932Z info: Snapshot saved successfully
+2025-03-29T10:45:11.932Z info: Sync process complete. Duration: 1222ms
+2025-03-29T10:45:12.627Z info: Web database connected successfully
+2025-03-29T10:45:12.633Z info: Started database connections
+2025-03-29T10:45:12.633Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:45:12.648Z info: Server is running on port 5000
+2025-03-29T10:45:12.649Z info: Sync service started successfully
+2025-03-29T10:45:20.699Z info: Starting sync process...
+2025-03-29T10:45:20.700Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:45:21.226Z info: Local database connected successfully
+2025-03-29T10:45:21.227Z info: Executing acc_master query
+2025-03-29T10:45:21.232Z info: Retrieved 382 records from acc_master
+2025-03-29T10:45:21.233Z info: Executing acc_users query
+2025-03-29T10:45:21.244Z info: Retrieved 44 records from acc_users
+2025-03-29T10:45:21.530Z info: Shutting down sync service...
+2025-03-29T10:48:15.568Z info: Web database connected successfully
+2025-03-29T10:48:15.573Z info: Started database connections
+2025-03-29T10:48:15.574Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:48:15.587Z info: Server is running on port 5000
+2025-03-29T10:48:15.589Z info: Sync service started successfully
+2025-03-29T10:48:20.608Z info: Starting sync process...
+2025-03-29T10:48:20.611Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:48:21.205Z info: Local database connected successfully
+2025-03-29T10:48:21.206Z info: Executing acc_master query
+2025-03-29T10:48:21.214Z info: Retrieved 382 records from acc_master
+2025-03-29T10:48:21.215Z info: Executing acc_users query
+2025-03-29T10:48:21.224Z info: Retrieved 44 records from acc_users
+2025-03-29T10:48:21.804Z info: Local database connection closed
+2025-03-29T10:48:21.805Z info: Loading previous database snapshot
+2025-03-29T10:48:21.810Z info: Snapshot loaded successfully
+2025-03-29T10:48:21.811Z info: Computing diff using key field: code
+2025-03-29T10:48:21.817Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:48:21.817Z info: Computing diff using key field: id
+2025-03-29T10:48:21.821Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:48:21.822Z info: No changes detected, skipping database update
+2025-03-29T10:48:21.823Z info: Saving current database snapshot
+2025-03-29T10:48:21.825Z info: Previous snapshot backed up successfully
+2025-03-29T10:48:21.830Z info: Snapshot saved successfully
+2025-03-29T10:48:21.830Z info: Sync process complete. Duration: 1222ms
+2025-03-29T10:48:22.544Z info: Web database connected successfully
+2025-03-29T10:48:22.550Z info: Started database connections
+2025-03-29T10:48:22.551Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:48:22.565Z info: Server is running on port 5000
+2025-03-29T10:48:22.566Z info: Sync service started successfully
+2025-03-29T10:48:30.623Z info: Starting sync process...
+2025-03-29T10:48:30.625Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:48:31.177Z info: Local database connected successfully
+2025-03-29T10:48:31.178Z info: Executing acc_master query
+2025-03-29T10:48:31.183Z info: Retrieved 382 records from acc_master
+2025-03-29T10:48:31.184Z info: Executing acc_users query
+2025-03-29T10:48:31.195Z info: Retrieved 44 records from acc_users
+2025-03-29T10:48:31.691Z info: Local database connection closed
+2025-03-29T10:48:31.693Z info: Loading previous database snapshot
+2025-03-29T10:48:31.703Z info: Snapshot loaded successfully
+2025-03-29T10:48:31.703Z info: Computing diff using key field: code
+2025-03-29T10:48:31.710Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:48:31.711Z info: Computing diff using key field: id
+2025-03-29T10:48:31.715Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:48:31.717Z info: No changes detected, skipping database update
+2025-03-29T10:48:31.717Z info: Saving current database snapshot
+2025-03-29T10:48:31.720Z info: Previous snapshot backed up successfully
+2025-03-29T10:48:31.724Z info: Snapshot saved successfully
+2025-03-29T10:48:31.724Z info: Sync process complete. Duration: 1101ms
+2025-03-29T10:48:32.355Z info: Web database connected successfully
+2025-03-29T10:48:32.360Z info: Started database connections
+2025-03-29T10:48:32.361Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:48:32.374Z info: Server is running on port 5000
+2025-03-29T10:48:32.375Z info: Sync service started successfully
+2025-03-29T10:48:33.811Z info: Shutting down sync service...
+2025-03-29T10:51:03.961Z info: Web database connected successfully
+2025-03-29T10:51:03.966Z info: Started database connections
+2025-03-29T10:51:03.967Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:51:03.980Z info: Server is running on port 5000
+2025-03-29T10:51:03.981Z info: Sync service started successfully
+2025-03-29T10:51:10.026Z info: Starting sync process...
+2025-03-29T10:51:10.028Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:51:10.584Z info: Local database connected successfully
+2025-03-29T10:51:10.585Z info: Executing acc_master query
+2025-03-29T10:51:10.591Z info: Retrieved 382 records from acc_master
+2025-03-29T10:51:10.591Z info: Executing acc_users query
+2025-03-29T10:51:10.601Z info: Retrieved 44 records from acc_users
+2025-03-29T10:51:11.196Z info: Local database connection closed
+2025-03-29T10:51:11.197Z info: Loading previous database snapshot
+2025-03-29T10:51:11.202Z info: Snapshot loaded successfully
+2025-03-29T10:51:11.203Z info: Computing diff using key field: code
+2025-03-29T10:51:11.211Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:51:11.211Z info: Computing diff using key field: id
+2025-03-29T10:51:11.215Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:51:11.216Z info: No changes detected, skipping database update
+2025-03-29T10:51:11.217Z info: Saving current database snapshot
+2025-03-29T10:51:11.219Z info: Previous snapshot backed up successfully
+2025-03-29T10:51:11.223Z info: Snapshot saved successfully
+2025-03-29T10:51:11.224Z info: Sync process complete. Duration: 1198ms
+2025-03-29T10:51:11.905Z info: Web database connected successfully
+2025-03-29T10:51:11.908Z info: Started database connections
+2025-03-29T10:51:11.909Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:51:11.914Z info: Server is running on port 5000
+2025-03-29T10:51:11.915Z info: Sync service started successfully
+2025-03-29T10:51:20.951Z info: Starting sync process...
+2025-03-29T10:51:20.953Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:51:21.564Z info: Local database connected successfully
+2025-03-29T10:51:21.565Z info: Executing acc_master query
+2025-03-29T10:51:21.570Z info: Retrieved 382 records from acc_master
+2025-03-29T10:51:21.571Z info: Executing acc_users query
+2025-03-29T10:51:21.583Z info: Retrieved 44 records from acc_users
+2025-03-29T10:51:22.197Z info: Local database connection closed
+2025-03-29T10:51:22.198Z info: Loading previous database snapshot
+2025-03-29T10:51:22.205Z info: Snapshot loaded successfully
+2025-03-29T10:51:22.206Z info: Computing diff using key field: code
+2025-03-29T10:51:22.214Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:51:22.214Z info: Computing diff using key field: id
+2025-03-29T10:51:22.219Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:51:22.220Z info: No changes detected, skipping database update
+2025-03-29T10:51:22.220Z info: Saving current database snapshot
+2025-03-29T10:51:22.223Z info: Previous snapshot backed up successfully
+2025-03-29T10:51:22.227Z info: Snapshot saved successfully
+2025-03-29T10:51:22.227Z info: Sync process complete. Duration: 1276ms
+2025-03-29T10:51:22.915Z info: Web database connected successfully
+2025-03-29T10:51:22.921Z info: Started database connections
+2025-03-29T10:51:22.922Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:51:22.936Z info: Server is running on port 5000
+2025-03-29T10:51:22.937Z info: Sync service started successfully
+2025-03-29T10:51:30.987Z info: Starting sync process...
+2025-03-29T10:51:30.989Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:51:31.555Z info: Local database connected successfully
+2025-03-29T10:51:31.556Z info: Executing acc_master query
+2025-03-29T10:51:31.561Z info: Retrieved 382 records from acc_master
+2025-03-29T10:51:31.561Z info: Executing acc_users query
+2025-03-29T10:51:31.575Z info: Retrieved 44 records from acc_users
+2025-03-29T10:51:32.144Z info: Local database connection closed
+2025-03-29T10:51:32.145Z info: Loading previous database snapshot
+2025-03-29T10:51:32.150Z info: Snapshot loaded successfully
+2025-03-29T10:51:32.151Z info: Computing diff using key field: code
+2025-03-29T10:51:32.159Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:51:32.159Z info: Computing diff using key field: id
+2025-03-29T10:51:32.163Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:51:32.165Z info: No changes detected, skipping database update
+2025-03-29T10:51:32.165Z info: Saving current database snapshot
+2025-03-29T10:51:32.168Z info: Previous snapshot backed up successfully
+2025-03-29T10:51:32.173Z info: Snapshot saved successfully
+2025-03-29T10:51:32.174Z info: Sync process complete. Duration: 1187ms
+2025-03-29T10:51:32.863Z info: Web database connected successfully
+2025-03-29T10:51:32.867Z info: Started database connections
+2025-03-29T10:51:32.867Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:51:32.874Z info: Server is running on port 5000
+2025-03-29T10:51:32.874Z info: Sync service started successfully
+2025-03-29T10:51:40.905Z info: Starting sync process...
+2025-03-29T10:51:40.906Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:51:41.473Z info: Local database connected successfully
+2025-03-29T10:51:41.474Z info: Executing acc_master query
+2025-03-29T10:51:41.479Z info: Retrieved 382 records from acc_master
+2025-03-29T10:51:41.480Z info: Executing acc_users query
+2025-03-29T10:51:41.493Z info: Retrieved 44 records from acc_users
+2025-03-29T10:51:42.068Z info: Local database connection closed
+2025-03-29T10:51:42.070Z info: Loading previous database snapshot
+2025-03-29T10:51:42.075Z info: Snapshot loaded successfully
+2025-03-29T10:51:42.076Z info: Computing diff using key field: code
+2025-03-29T10:51:42.082Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:51:42.083Z info: Computing diff using key field: id
+2025-03-29T10:51:42.087Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:51:42.088Z info: No changes detected, skipping database update
+2025-03-29T10:51:42.089Z info: Saving current database snapshot
+2025-03-29T10:51:42.092Z info: Previous snapshot backed up successfully
+2025-03-29T10:51:42.096Z info: Snapshot saved successfully
+2025-03-29T10:51:42.096Z info: Sync process complete. Duration: 1192ms
+2025-03-29T10:51:43.035Z info: Web database connected successfully
+2025-03-29T10:51:43.038Z info: Started database connections
+2025-03-29T10:51:43.039Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:51:43.044Z info: Server is running on port 5000
+2025-03-29T10:51:43.044Z info: Sync service started successfully
+2025-03-29T10:51:50.083Z info: Starting sync process...
+2025-03-29T10:51:50.085Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:51:50.648Z info: Local database connected successfully
+2025-03-29T10:51:50.649Z info: Executing acc_master query
+2025-03-29T10:51:50.655Z info: Retrieved 382 records from acc_master
+2025-03-29T10:51:50.655Z info: Executing acc_users query
+2025-03-29T10:51:50.665Z info: Retrieved 44 records from acc_users
+2025-03-29T10:51:51.257Z info: Local database connection closed
+2025-03-29T10:51:51.258Z info: Loading previous database snapshot
+2025-03-29T10:51:51.266Z info: Snapshot loaded successfully
+2025-03-29T10:51:51.267Z info: Computing diff using key field: code
+2025-03-29T10:51:51.273Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:51:51.274Z info: Computing diff using key field: id
+2025-03-29T10:51:51.278Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:51:51.279Z info: No changes detected, skipping database update
+2025-03-29T10:51:51.280Z info: Saving current database snapshot
+2025-03-29T10:51:51.282Z info: Previous snapshot backed up successfully
+2025-03-29T10:51:51.287Z info: Snapshot saved successfully
+2025-03-29T10:51:51.287Z info: Sync process complete. Duration: 1204ms
+2025-03-29T10:51:51.975Z info: Web database connected successfully
+2025-03-29T10:51:51.983Z info: Started database connections
+2025-03-29T10:51:51.983Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:51:51.998Z info: Server is running on port 5000
+2025-03-29T10:51:51.999Z info: Sync service started successfully
+2025-03-29T10:52:00.043Z info: Starting sync process...
+2025-03-29T10:52:00.044Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:52:00.759Z info: Local database connected successfully
+2025-03-29T10:52:00.759Z info: Executing acc_master query
+2025-03-29T10:52:00.764Z info: Retrieved 382 records from acc_master
+2025-03-29T10:52:00.765Z info: Executing acc_users query
+2025-03-29T10:52:00.780Z info: Retrieved 44 records from acc_users
+2025-03-29T10:52:01.287Z info: Local database connection closed
+2025-03-29T10:52:01.288Z info: Loading previous database snapshot
+2025-03-29T10:52:01.293Z info: Snapshot loaded successfully
+2025-03-29T10:52:01.293Z info: Computing diff using key field: code
+2025-03-29T10:52:01.300Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:52:01.300Z info: Computing diff using key field: id
+2025-03-29T10:52:01.305Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:52:01.307Z info: No changes detected, skipping database update
+2025-03-29T10:52:01.308Z info: Saving current database snapshot
+2025-03-29T10:52:01.310Z info: Previous snapshot backed up successfully
+2025-03-29T10:52:01.313Z info: Snapshot saved successfully
+2025-03-29T10:52:01.314Z info: Sync process complete. Duration: 1271ms
+2025-03-29T10:52:02.056Z info: Web database connected successfully
+2025-03-29T10:52:02.060Z info: Started database connections
+2025-03-29T10:52:02.061Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:52:02.070Z info: Server is running on port 5000
+2025-03-29T10:52:02.071Z info: Sync service started successfully
+2025-03-29T10:52:10.132Z info: Starting sync process...
+2025-03-29T10:52:10.134Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:52:10.695Z info: Local database connected successfully
+2025-03-29T10:52:10.696Z info: Executing acc_master query
+2025-03-29T10:52:10.701Z info: Retrieved 382 records from acc_master
+2025-03-29T10:52:10.702Z info: Executing acc_users query
+2025-03-29T10:52:11.287Z info: Retrieved 44 records from acc_users
+2025-03-29T10:52:11.339Z info: Local database connection closed
+2025-03-29T10:52:11.339Z info: Loading previous database snapshot
+2025-03-29T10:52:11.345Z info: Snapshot loaded successfully
+2025-03-29T10:52:11.346Z info: Computing diff using key field: code
+2025-03-29T10:52:11.351Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:52:11.352Z info: Computing diff using key field: id
+2025-03-29T10:52:11.356Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:52:11.357Z info: No changes detected, skipping database update
+2025-03-29T10:52:11.357Z info: Saving current database snapshot
+2025-03-29T10:52:11.359Z info: Previous snapshot backed up successfully
+2025-03-29T10:52:11.364Z info: Snapshot saved successfully
+2025-03-29T10:52:11.365Z info: Sync process complete. Duration: 1233ms
+2025-03-29T10:52:12.044Z info: Web database connected successfully
+2025-03-29T10:52:12.048Z info: Started database connections
+2025-03-29T10:52:12.048Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:52:12.054Z info: Server is running on port 5000
+2025-03-29T10:52:12.054Z info: Sync service started successfully
+2025-03-29T10:52:20.105Z info: Starting sync process...
+2025-03-29T10:52:20.107Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:52:20.785Z info: Local database connected successfully
+2025-03-29T10:52:20.786Z info: Executing acc_master query
+2025-03-29T10:52:20.791Z info: Retrieved 382 records from acc_master
+2025-03-29T10:52:20.792Z info: Executing acc_users query
+2025-03-29T10:52:20.803Z info: Retrieved 44 records from acc_users
+2025-03-29T10:52:21.377Z info: Local database connection closed
+2025-03-29T10:52:21.378Z info: Loading previous database snapshot
+2025-03-29T10:52:21.384Z info: Snapshot loaded successfully
+2025-03-29T10:52:21.385Z info: Computing diff using key field: code
+2025-03-29T10:52:21.392Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:52:21.393Z info: Computing diff using key field: id
+2025-03-29T10:52:21.396Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:52:21.402Z info: No changes detected, skipping database update
+2025-03-29T10:52:21.402Z info: Saving current database snapshot
+2025-03-29T10:52:21.405Z info: Previous snapshot backed up successfully
+2025-03-29T10:52:21.409Z info: Snapshot saved successfully
+2025-03-29T10:52:21.411Z info: Sync process complete. Duration: 1306ms
+2025-03-29T10:52:23.111Z info: Web database connected successfully
+2025-03-29T10:52:23.117Z info: Started database connections
+2025-03-29T10:52:23.118Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:52:23.132Z info: Server is running on port 5000
+2025-03-29T10:52:23.133Z info: Sync service started successfully
+2025-03-29T10:52:27.194Z info: Web database connected successfully
+2025-03-29T10:52:27.197Z info: Started database connections
+2025-03-29T10:52:27.198Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:52:27.205Z info: Server is running on port 5000
+2025-03-29T10:52:27.206Z info: Sync service started successfully
+2025-03-29T10:52:30.236Z info: Starting sync process...
+2025-03-29T10:52:30.238Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:52:30.793Z info: Local database connected successfully
+2025-03-29T10:52:30.793Z info: Executing acc_master query
+2025-03-29T10:52:30.801Z info: Retrieved 382 records from acc_master
+2025-03-29T10:52:30.802Z info: Executing acc_users query
+2025-03-29T10:52:30.812Z info: Retrieved 44 records from acc_users
+2025-03-29T10:52:31.312Z info: Local database connection closed
+2025-03-29T10:52:31.313Z info: Loading previous database snapshot
+2025-03-29T10:52:31.320Z info: Snapshot loaded successfully
+2025-03-29T10:52:31.321Z info: Computing diff using key field: code
+2025-03-29T10:52:31.331Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:52:31.332Z info: Computing diff using key field: id
+2025-03-29T10:52:31.336Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:52:31.338Z info: No changes detected, skipping database update
+2025-03-29T10:52:31.338Z info: Saving current database snapshot
+2025-03-29T10:52:31.341Z info: Previous snapshot backed up successfully
+2025-03-29T10:52:31.345Z info: Snapshot saved successfully
+2025-03-29T10:52:31.346Z info: Sync process complete. Duration: 1111ms
+2025-03-29T10:52:32.166Z info: Web database connected successfully
+2025-03-29T10:52:32.169Z info: Started database connections
+2025-03-29T10:52:32.169Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:52:32.175Z info: Server is running on port 5000
+2025-03-29T10:52:32.176Z info: Sync service started successfully
+2025-03-29T10:52:34.119Z info: Web database connected successfully
+2025-03-29T10:52:34.122Z info: Started database connections
+2025-03-29T10:52:34.123Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:52:34.128Z info: Server is running on port 5000
+2025-03-29T10:52:34.129Z info: Sync service started successfully
+2025-03-29T10:52:38.620Z info: Shutting down sync service...
+2025-03-29T10:53:20.830Z info: Web database connected successfully
+2025-03-29T10:53:20.835Z info: Started database connections
+2025-03-29T10:53:20.836Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:53:20.844Z info: Starting sync process...
+2025-03-29T10:53:20.846Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:53:20.854Z info: Server is running on port 5000
+2025-03-29T10:53:20.855Z info: Sync service started successfully
+2025-03-29T10:53:21.413Z info: Local database connected successfully
+2025-03-29T10:53:21.414Z info: Executing acc_master query
+2025-03-29T10:53:21.419Z info: Retrieved 382 records from acc_master
+2025-03-29T10:53:21.420Z info: Executing acc_users query
+2025-03-29T10:53:21.436Z info: Retrieved 44 records from acc_users
+2025-03-29T10:53:22.014Z info: Local database connection closed
+2025-03-29T10:53:22.016Z info: Loading previous database snapshot
+2025-03-29T10:53:22.027Z info: Snapshot loaded successfully
+2025-03-29T10:53:22.029Z info: Computing diff using key field: code
+2025-03-29T10:53:22.041Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:53:22.042Z info: Computing diff using key field: id
+2025-03-29T10:53:22.046Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:53:22.048Z info: No changes detected, skipping database update
+2025-03-29T10:53:22.048Z info: Saving current database snapshot
+2025-03-29T10:53:22.051Z info: Previous snapshot backed up successfully
+2025-03-29T10:53:22.054Z info: Snapshot saved successfully
+2025-03-29T10:53:22.055Z info: Sync process complete. Duration: 1211ms
+2025-03-29T10:53:22.831Z info: Web database connected successfully
+2025-03-29T10:53:22.836Z info: Started database connections
+2025-03-29T10:53:22.836Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:53:22.841Z info: Server is running on port 5000
+2025-03-29T10:53:22.842Z info: Sync service started successfully
+2025-03-29T10:53:30.880Z info: Starting sync process...
+2025-03-29T10:53:30.881Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:53:31.443Z info: Local database connected successfully
+2025-03-29T10:53:31.444Z info: Executing acc_master query
+2025-03-29T10:53:31.449Z info: Retrieved 382 records from acc_master
+2025-03-29T10:53:31.450Z info: Executing acc_users query
+2025-03-29T10:53:31.461Z info: Retrieved 44 records from acc_users
+2025-03-29T10:53:31.970Z info: Local database connection closed
+2025-03-29T10:53:31.971Z info: Loading previous database snapshot
+2025-03-29T10:53:31.978Z info: Snapshot loaded successfully
+2025-03-29T10:53:31.979Z info: Computing diff using key field: code
+2025-03-29T10:53:31.985Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:53:31.986Z info: Computing diff using key field: id
+2025-03-29T10:53:31.990Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:53:31.992Z info: No changes detected, skipping database update
+2025-03-29T10:53:31.992Z info: Saving current database snapshot
+2025-03-29T10:53:31.994Z info: Previous snapshot backed up successfully
+2025-03-29T10:53:31.999Z info: Snapshot saved successfully
+2025-03-29T10:53:31.999Z info: Sync process complete. Duration: 1119ms
+2025-03-29T10:53:32.654Z info: Web database connected successfully
+2025-03-29T10:53:32.656Z info: Started database connections
+2025-03-29T10:53:32.657Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:53:32.662Z info: Server is running on port 5000
+2025-03-29T10:53:32.663Z info: Sync service started successfully
+2025-03-29T10:53:40.706Z info: Starting sync process...
+2025-03-29T10:53:40.707Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:53:41.264Z info: Local database connected successfully
+2025-03-29T10:53:41.264Z info: Executing acc_master query
+2025-03-29T10:53:41.269Z info: Retrieved 382 records from acc_master
+2025-03-29T10:53:41.269Z info: Executing acc_users query
+2025-03-29T10:53:41.283Z info: Retrieved 44 records from acc_users
+2025-03-29T10:53:41.763Z info: Local database connection closed
+2025-03-29T10:53:41.764Z info: Loading previous database snapshot
+2025-03-29T10:53:41.770Z info: Snapshot loaded successfully
+2025-03-29T10:53:41.771Z info: Computing diff using key field: code
+2025-03-29T10:53:41.778Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:53:41.778Z info: Computing diff using key field: id
+2025-03-29T10:53:41.782Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:53:41.784Z info: No changes detected, skipping database update
+2025-03-29T10:53:41.784Z info: Saving current database snapshot
+2025-03-29T10:53:41.786Z info: Previous snapshot backed up successfully
+2025-03-29T10:53:41.790Z info: Snapshot saved successfully
+2025-03-29T10:53:41.790Z info: Sync process complete. Duration: 1084ms
+2025-03-29T10:53:42.599Z info: Web database connected successfully
+2025-03-29T10:53:42.602Z info: Started database connections
+2025-03-29T10:53:42.602Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:53:42.609Z info: Server is running on port 5000
+2025-03-29T10:53:42.611Z info: Sync service started successfully
+2025-03-29T10:53:50.673Z info: Starting sync process...
+2025-03-29T10:53:50.675Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:53:51.830Z info: Local database connected successfully
+2025-03-29T10:53:51.831Z info: Executing acc_master query
+2025-03-29T10:53:51.845Z info: Retrieved 382 records from acc_master
+2025-03-29T10:53:51.846Z info: Executing acc_users query
+2025-03-29T10:53:51.878Z info: Retrieved 44 records from acc_users
+2025-03-29T10:53:51.911Z info: Local database connection closed
+2025-03-29T10:53:51.911Z info: Loading previous database snapshot
+2025-03-29T10:53:51.918Z info: Snapshot loaded successfully
+2025-03-29T10:53:51.919Z info: Computing diff using key field: code
+2025-03-29T10:53:51.926Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:53:51.926Z info: Computing diff using key field: id
+2025-03-29T10:53:51.931Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:53:51.932Z info: No changes detected, skipping database update
+2025-03-29T10:53:51.932Z info: Saving current database snapshot
+2025-03-29T10:53:51.935Z info: Previous snapshot backed up successfully
+2025-03-29T10:53:51.939Z info: Snapshot saved successfully
+2025-03-29T10:53:51.940Z info: Sync process complete. Duration: 1267ms
+2025-03-29T10:53:52.640Z info: Web database connected successfully
+2025-03-29T10:53:52.643Z info: Started database connections
+2025-03-29T10:53:52.643Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:53:52.651Z info: Server is running on port 5000
+2025-03-29T10:53:52.651Z info: Sync service started successfully
+2025-03-29T10:53:54.026Z info: Shutting down sync service...
+2025-03-29T10:59:44.629Z info: Web database connected successfully
+2025-03-29T10:59:44.633Z info: Started database connections
+2025-03-29T10:59:44.634Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T10:59:44.640Z info: Server is running on port 5000
+2025-03-29T10:59:44.641Z info: Sync service started successfully
+2025-03-29T10:59:50.697Z info: Starting sync process...
+2025-03-29T10:59:50.699Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T10:59:51.331Z info: Local database connected successfully
+2025-03-29T10:59:51.332Z info: Executing acc_master query
+2025-03-29T10:59:51.337Z info: Retrieved 382 records from acc_master
+2025-03-29T10:59:51.338Z info: Executing acc_users query
+2025-03-29T10:59:51.349Z info: Retrieved 44 records from acc_users
+2025-03-29T10:59:51.883Z info: Local database connection closed
+2025-03-29T10:59:51.884Z info: Loading previous database snapshot
+2025-03-29T10:59:51.891Z info: Snapshot loaded successfully
+2025-03-29T10:59:51.892Z info: Computing diff using key field: code
+2025-03-29T10:59:51.900Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:59:51.900Z info: Computing diff using key field: id
+2025-03-29T10:59:51.905Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T10:59:51.907Z info: No changes detected, skipping database update
+2025-03-29T10:59:51.907Z info: Saving current database snapshot
+2025-03-29T10:59:51.909Z info: Previous snapshot backed up successfully
+2025-03-29T10:59:51.912Z info: Snapshot saved successfully
+2025-03-29T10:59:51.913Z info: Sync process complete. Duration: 1216ms
+2025-03-29T11:00:00.777Z info: Starting sync process...
+2025-03-29T11:00:00.778Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:00:01.510Z info: Local database connected successfully
+2025-03-29T11:00:01.510Z info: Executing acc_master query
+2025-03-29T11:00:01.514Z info: Retrieved 382 records from acc_master
+2025-03-29T11:00:01.515Z info: Executing acc_users query
+2025-03-29T11:00:01.526Z info: Retrieved 44 records from acc_users
+2025-03-29T11:00:02.094Z info: Local database connection closed
+2025-03-29T11:00:02.094Z info: Loading previous database snapshot
+2025-03-29T11:00:02.100Z info: Snapshot loaded successfully
+2025-03-29T11:00:02.100Z info: Computing diff using key field: code
+2025-03-29T11:00:02.107Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:00:02.108Z info: Computing diff using key field: id
+2025-03-29T11:00:02.112Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:00:02.113Z info: No changes detected, skipping database update
+2025-03-29T11:00:02.113Z info: Saving current database snapshot
+2025-03-29T11:00:02.114Z info: Previous snapshot backed up successfully
+2025-03-29T11:00:02.118Z info: Snapshot saved successfully
+2025-03-29T11:00:02.118Z info: Sync process complete. Duration: 1341ms
+2025-03-29T11:00:10.841Z info: Starting sync process...
+2025-03-29T11:00:10.842Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:00:11.883Z info: Local database connected successfully
+2025-03-29T11:00:11.884Z info: Executing acc_master query
+2025-03-29T11:00:11.890Z info: Retrieved 382 records from acc_master
+2025-03-29T11:00:11.890Z info: Executing acc_users query
+2025-03-29T11:00:11.904Z info: Retrieved 44 records from acc_users
+2025-03-29T11:00:11.939Z info: Local database connection closed
+2025-03-29T11:00:11.940Z info: Loading previous database snapshot
+2025-03-29T11:00:11.949Z info: Snapshot loaded successfully
+2025-03-29T11:00:11.949Z info: Computing diff using key field: code
+2025-03-29T11:00:11.953Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:00:11.953Z info: Computing diff using key field: id
+2025-03-29T11:00:11.957Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:00:11.958Z info: No changes detected, skipping database update
+2025-03-29T11:00:11.958Z info: Saving current database snapshot
+2025-03-29T11:00:11.960Z info: Previous snapshot backed up successfully
+2025-03-29T11:00:11.965Z info: Snapshot saved successfully
+2025-03-29T11:00:11.965Z info: Sync process complete. Duration: 1124ms
+2025-03-29T11:00:20.926Z info: Starting sync process...
+2025-03-29T11:00:20.927Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:00:22.014Z info: Local database connected successfully
+2025-03-29T11:00:22.014Z info: Executing acc_master query
+2025-03-29T11:00:22.021Z info: Retrieved 382 records from acc_master
+2025-03-29T11:00:22.021Z info: Executing acc_users query
+2025-03-29T11:00:22.031Z info: Retrieved 44 records from acc_users
+2025-03-29T11:00:22.058Z info: Local database connection closed
+2025-03-29T11:00:22.058Z info: Loading previous database snapshot
+2025-03-29T11:00:22.064Z info: Snapshot loaded successfully
+2025-03-29T11:00:22.064Z info: Computing diff using key field: code
+2025-03-29T11:00:22.070Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:00:22.071Z info: Computing diff using key field: id
+2025-03-29T11:00:22.075Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:00:22.076Z info: No changes detected, skipping database update
+2025-03-29T11:00:22.076Z info: Saving current database snapshot
+2025-03-29T11:00:22.077Z info: Previous snapshot backed up successfully
+2025-03-29T11:00:22.081Z info: Snapshot saved successfully
+2025-03-29T11:00:22.081Z info: Sync process complete. Duration: 1155ms
+2025-03-29T11:00:30.976Z info: Starting sync process...
+2025-03-29T11:00:30.977Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:00:32.044Z info: Local database connected successfully
+2025-03-29T11:00:32.045Z info: Executing acc_master query
+2025-03-29T11:00:32.052Z info: Retrieved 382 records from acc_master
+2025-03-29T11:00:32.053Z info: Executing acc_users query
+2025-03-29T11:00:32.064Z info: Retrieved 44 records from acc_users
+2025-03-29T11:00:32.088Z info: Local database connection closed
+2025-03-29T11:00:32.088Z info: Loading previous database snapshot
+2025-03-29T11:00:32.096Z info: Snapshot loaded successfully
+2025-03-29T11:00:32.097Z info: Computing diff using key field: code
+2025-03-29T11:00:32.102Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:00:32.102Z info: Computing diff using key field: id
+2025-03-29T11:00:32.106Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:00:32.107Z info: No changes detected, skipping database update
+2025-03-29T11:00:32.107Z info: Saving current database snapshot
+2025-03-29T11:00:32.109Z info: Previous snapshot backed up successfully
+2025-03-29T11:00:32.113Z info: Snapshot saved successfully
+2025-03-29T11:00:32.114Z info: Sync process complete. Duration: 1138ms
+2025-03-29T11:00:40.048Z info: Starting sync process...
+2025-03-29T11:00:40.049Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:00:40.556Z info: Local database connected successfully
+2025-03-29T11:00:40.557Z info: Executing acc_master query
+2025-03-29T11:00:40.561Z info: Retrieved 382 records from acc_master
+2025-03-29T11:00:40.562Z info: Executing acc_users query
+2025-03-29T11:00:40.575Z info: Retrieved 44 records from acc_users
+2025-03-29T11:00:41.157Z info: Local database connection closed
+2025-03-29T11:00:41.158Z info: Loading previous database snapshot
+2025-03-29T11:00:41.166Z info: Snapshot loaded successfully
+2025-03-29T11:00:41.167Z info: Computing diff using key field: code
+2025-03-29T11:00:41.174Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:00:41.175Z info: Computing diff using key field: id
+2025-03-29T11:00:41.181Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:00:41.182Z info: No changes detected, skipping database update
+2025-03-29T11:00:41.182Z info: Saving current database snapshot
+2025-03-29T11:00:41.184Z info: Previous snapshot backed up successfully
+2025-03-29T11:00:41.188Z info: Snapshot saved successfully
+2025-03-29T11:00:41.188Z info: Sync process complete. Duration: 1140ms
+2025-03-29T11:00:50.109Z info: Starting sync process...
+2025-03-29T11:00:50.110Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:00:51.205Z info: Local database connected successfully
+2025-03-29T11:00:51.205Z info: Executing acc_master query
+2025-03-29T11:00:51.210Z info: Retrieved 382 records from acc_master
+2025-03-29T11:00:51.211Z info: Executing acc_users query
+2025-03-29T11:00:51.221Z info: Retrieved 44 records from acc_users
+2025-03-29T11:00:51.250Z info: Local database connection closed
+2025-03-29T11:00:51.251Z info: Loading previous database snapshot
+2025-03-29T11:00:51.255Z info: Snapshot loaded successfully
+2025-03-29T11:00:51.256Z info: Computing diff using key field: code
+2025-03-29T11:00:51.261Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:00:51.262Z info: Computing diff using key field: id
+2025-03-29T11:00:51.265Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:00:51.266Z info: No changes detected, skipping database update
+2025-03-29T11:00:51.267Z info: Saving current database snapshot
+2025-03-29T11:00:51.268Z info: Previous snapshot backed up successfully
+2025-03-29T11:00:51.271Z info: Snapshot saved successfully
+2025-03-29T11:00:51.272Z info: Sync process complete. Duration: 1163ms
+2025-03-29T11:01:00.177Z info: Starting sync process...
+2025-03-29T11:01:00.178Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:01:01.309Z info: Local database connected successfully
+2025-03-29T11:01:01.310Z info: Executing acc_master query
+2025-03-29T11:01:01.320Z info: Retrieved 382 records from acc_master
+2025-03-29T11:01:01.321Z info: Executing acc_users query
+2025-03-29T11:01:01.331Z info: Retrieved 44 records from acc_users
+2025-03-29T11:01:01.357Z info: Local database connection closed
+2025-03-29T11:01:01.359Z info: Loading previous database snapshot
+2025-03-29T11:01:01.366Z info: Snapshot loaded successfully
+2025-03-29T11:01:01.366Z info: Computing diff using key field: code
+2025-03-29T11:01:01.370Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:01:01.371Z info: Computing diff using key field: id
+2025-03-29T11:01:01.376Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:01:01.377Z info: No changes detected, skipping database update
+2025-03-29T11:01:01.377Z info: Saving current database snapshot
+2025-03-29T11:01:01.379Z info: Previous snapshot backed up successfully
+2025-03-29T11:01:01.383Z info: Snapshot saved successfully
+2025-03-29T11:01:01.383Z info: Sync process complete. Duration: 1206ms
+2025-03-29T11:01:10.270Z info: Starting sync process...
+2025-03-29T11:01:10.271Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:01:11.411Z info: Local database connected successfully
+2025-03-29T11:01:11.412Z info: Executing acc_master query
+2025-03-29T11:01:11.424Z info: Retrieved 382 records from acc_master
+2025-03-29T11:01:11.425Z info: Executing acc_users query
+2025-03-29T11:01:11.451Z info: Retrieved 44 records from acc_users
+2025-03-29T11:01:11.506Z info: Local database connection closed
+2025-03-29T11:01:11.506Z info: Loading previous database snapshot
+2025-03-29T11:01:11.515Z info: Snapshot loaded successfully
+2025-03-29T11:01:11.516Z info: Computing diff using key field: code
+2025-03-29T11:01:11.520Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:01:11.520Z info: Computing diff using key field: id
+2025-03-29T11:01:11.524Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:01:11.525Z info: No changes detected, skipping database update
+2025-03-29T11:01:11.526Z info: Saving current database snapshot
+2025-03-29T11:01:11.528Z info: Previous snapshot backed up successfully
+2025-03-29T11:01:11.532Z info: Snapshot saved successfully
+2025-03-29T11:01:11.532Z info: Sync process complete. Duration: 1262ms
+2025-03-29T11:01:20.330Z info: Starting sync process...
+2025-03-29T11:01:20.331Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:01:20.855Z info: Local database connected successfully
+2025-03-29T11:01:20.855Z info: Executing acc_master query
+2025-03-29T11:01:20.860Z info: Retrieved 382 records from acc_master
+2025-03-29T11:01:20.861Z info: Executing acc_users query
+2025-03-29T11:01:20.871Z info: Retrieved 44 records from acc_users
+2025-03-29T11:01:21.480Z info: Local database connection closed
+2025-03-29T11:01:21.481Z info: Loading previous database snapshot
+2025-03-29T11:01:21.493Z info: Snapshot loaded successfully
+2025-03-29T11:01:21.494Z info: Computing diff using key field: code
+2025-03-29T11:01:21.503Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:01:21.504Z info: Computing diff using key field: id
+2025-03-29T11:01:21.507Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:01:21.508Z info: No changes detected, skipping database update
+2025-03-29T11:01:21.509Z info: Saving current database snapshot
+2025-03-29T11:01:21.510Z info: Previous snapshot backed up successfully
+2025-03-29T11:01:21.514Z info: Snapshot saved successfully
+2025-03-29T11:01:21.515Z info: Sync process complete. Duration: 1185ms
+2025-03-29T11:01:30.391Z info: Starting sync process...
+2025-03-29T11:01:30.392Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:01:30.881Z info: Local database connected successfully
+2025-03-29T11:01:30.881Z info: Executing acc_master query
+2025-03-29T11:01:30.886Z info: Retrieved 382 records from acc_master
+2025-03-29T11:01:30.886Z info: Executing acc_users query
+2025-03-29T11:01:30.896Z info: Retrieved 44 records from acc_users
+2025-03-29T11:01:31.407Z info: Local database connection closed
+2025-03-29T11:01:31.408Z info: Loading previous database snapshot
+2025-03-29T11:01:31.424Z info: Snapshot loaded successfully
+2025-03-29T11:01:31.425Z info: Computing diff using key field: code
+2025-03-29T11:01:31.433Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:01:31.433Z info: Computing diff using key field: id
+2025-03-29T11:01:31.439Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:01:31.440Z info: No changes detected, skipping database update
+2025-03-29T11:01:31.441Z info: Saving current database snapshot
+2025-03-29T11:01:31.442Z info: Previous snapshot backed up successfully
+2025-03-29T11:01:31.446Z info: Snapshot saved successfully
+2025-03-29T11:01:31.446Z info: Sync process complete. Duration: 1055ms
+2025-03-29T11:01:40.445Z info: Starting sync process...
+2025-03-29T11:01:40.446Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:01:40.983Z info: Local database connected successfully
+2025-03-29T11:01:40.983Z info: Executing acc_master query
+2025-03-29T11:01:40.987Z info: Retrieved 382 records from acc_master
+2025-03-29T11:01:40.988Z info: Executing acc_users query
+2025-03-29T11:01:40.999Z info: Retrieved 44 records from acc_users
+2025-03-29T11:01:41.603Z info: Local database connection closed
+2025-03-29T11:01:41.604Z info: Loading previous database snapshot
+2025-03-29T11:01:41.621Z info: Snapshot loaded successfully
+2025-03-29T11:01:41.622Z info: Computing diff using key field: code
+2025-03-29T11:01:41.632Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:01:41.633Z info: Computing diff using key field: id
+2025-03-29T11:01:41.637Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:01:41.638Z info: No changes detected, skipping database update
+2025-03-29T11:01:41.638Z info: Saving current database snapshot
+2025-03-29T11:01:41.639Z info: Previous snapshot backed up successfully
+2025-03-29T11:01:41.643Z info: Snapshot saved successfully
+2025-03-29T11:01:41.643Z info: Sync process complete. Duration: 1198ms
+2025-03-29T11:01:50.519Z info: Starting sync process...
+2025-03-29T11:01:50.520Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:01:51.114Z info: Local database connected successfully
+2025-03-29T11:01:51.115Z info: Executing acc_master query
+2025-03-29T11:01:51.119Z info: Retrieved 382 records from acc_master
+2025-03-29T11:01:51.120Z info: Executing acc_users query
+2025-03-29T11:01:51.130Z info: Retrieved 44 records from acc_users
+2025-03-29T11:01:51.643Z info: Local database connection closed
+2025-03-29T11:01:51.643Z info: Loading previous database snapshot
+2025-03-29T11:01:51.648Z info: Snapshot loaded successfully
+2025-03-29T11:01:51.648Z info: Computing diff using key field: code
+2025-03-29T11:01:51.655Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:01:51.656Z info: Computing diff using key field: id
+2025-03-29T11:01:51.659Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:01:51.660Z info: No changes detected, skipping database update
+2025-03-29T11:01:51.661Z info: Saving current database snapshot
+2025-03-29T11:01:51.662Z info: Previous snapshot backed up successfully
+2025-03-29T11:01:51.666Z info: Snapshot saved successfully
+2025-03-29T11:01:51.666Z info: Sync process complete. Duration: 1147ms
+2025-03-29T11:02:00.573Z info: Starting sync process...
+2025-03-29T11:02:00.574Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:02:01.104Z info: Local database connected successfully
+2025-03-29T11:02:01.105Z info: Executing acc_master query
+2025-03-29T11:02:01.110Z info: Retrieved 382 records from acc_master
+2025-03-29T11:02:01.111Z info: Executing acc_users query
+2025-03-29T11:02:01.121Z info: Retrieved 44 records from acc_users
+2025-03-29T11:02:01.735Z info: Local database connection closed
+2025-03-29T11:02:01.736Z info: Loading previous database snapshot
+2025-03-29T11:02:01.752Z info: Snapshot loaded successfully
+2025-03-29T11:02:01.752Z info: Computing diff using key field: code
+2025-03-29T11:02:01.762Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:02:01.763Z info: Computing diff using key field: id
+2025-03-29T11:02:01.766Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:02:01.767Z info: No changes detected, skipping database update
+2025-03-29T11:02:01.768Z info: Saving current database snapshot
+2025-03-29T11:02:01.769Z info: Previous snapshot backed up successfully
+2025-03-29T11:02:01.773Z info: Snapshot saved successfully
+2025-03-29T11:02:01.773Z info: Sync process complete. Duration: 1200ms
+2025-03-29T11:02:10.631Z info: Starting sync process...
+2025-03-29T11:02:10.632Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:02:11.159Z info: Local database connected successfully
+2025-03-29T11:02:11.159Z info: Executing acc_master query
+2025-03-29T11:02:11.177Z info: Retrieved 382 records from acc_master
+2025-03-29T11:02:11.178Z info: Executing acc_users query
+2025-03-29T11:02:11.189Z info: Retrieved 44 records from acc_users
+2025-03-29T11:02:11.769Z info: Local database connection closed
+2025-03-29T11:02:11.770Z info: Loading previous database snapshot
+2025-03-29T11:02:11.781Z info: Snapshot loaded successfully
+2025-03-29T11:02:11.782Z info: Computing diff using key field: code
+2025-03-29T11:02:11.786Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:02:11.787Z info: Computing diff using key field: id
+2025-03-29T11:02:11.791Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:02:11.792Z info: No changes detected, skipping database update
+2025-03-29T11:02:11.792Z info: Saving current database snapshot
+2025-03-29T11:02:11.794Z info: Previous snapshot backed up successfully
+2025-03-29T11:02:11.797Z info: Snapshot saved successfully
+2025-03-29T11:02:11.798Z info: Sync process complete. Duration: 1167ms
+2025-03-29T11:02:20.686Z info: Starting sync process...
+2025-03-29T11:02:20.687Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:02:21.221Z info: Local database connected successfully
+2025-03-29T11:02:21.222Z info: Executing acc_master query
+2025-03-29T11:02:21.227Z info: Retrieved 382 records from acc_master
+2025-03-29T11:02:21.227Z info: Executing acc_users query
+2025-03-29T11:02:21.237Z info: Retrieved 44 records from acc_users
+2025-03-29T11:02:21.842Z info: Local database connection closed
+2025-03-29T11:02:21.843Z info: Loading previous database snapshot
+2025-03-29T11:02:21.861Z info: Snapshot loaded successfully
+2025-03-29T11:02:21.862Z info: Computing diff using key field: code
+2025-03-29T11:02:21.866Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:02:21.866Z info: Computing diff using key field: id
+2025-03-29T11:02:21.870Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:02:21.872Z info: No changes detected, skipping database update
+2025-03-29T11:02:21.873Z info: Saving current database snapshot
+2025-03-29T11:02:21.875Z info: Previous snapshot backed up successfully
+2025-03-29T11:02:21.878Z info: Snapshot saved successfully
+2025-03-29T11:02:21.879Z info: Sync process complete. Duration: 1193ms
+2025-03-29T11:02:30.761Z info: Starting sync process...
+2025-03-29T11:02:30.762Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:02:31.277Z info: Local database connected successfully
+2025-03-29T11:02:31.277Z info: Executing acc_master query
+2025-03-29T11:02:31.284Z info: Retrieved 382 records from acc_master
+2025-03-29T11:02:31.285Z info: Executing acc_users query
+2025-03-29T11:02:31.295Z info: Retrieved 44 records from acc_users
+2025-03-29T11:02:31.908Z info: Local database connection closed
+2025-03-29T11:02:31.908Z info: Loading previous database snapshot
+2025-03-29T11:02:31.918Z info: Snapshot loaded successfully
+2025-03-29T11:02:31.918Z info: Computing diff using key field: code
+2025-03-29T11:02:31.923Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:02:31.923Z info: Computing diff using key field: id
+2025-03-29T11:02:31.927Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:02:31.928Z info: No changes detected, skipping database update
+2025-03-29T11:02:31.928Z info: Saving current database snapshot
+2025-03-29T11:02:31.930Z info: Previous snapshot backed up successfully
+2025-03-29T11:02:31.934Z info: Snapshot saved successfully
+2025-03-29T11:02:31.934Z info: Sync process complete. Duration: 1173ms
+2025-03-29T11:02:40.816Z info: Starting sync process...
+2025-03-29T11:02:40.817Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:02:41.368Z info: Local database connected successfully
+2025-03-29T11:02:41.368Z info: Executing acc_master query
+2025-03-29T11:02:41.373Z info: Retrieved 382 records from acc_master
+2025-03-29T11:02:41.373Z info: Executing acc_users query
+2025-03-29T11:02:41.384Z info: Retrieved 44 records from acc_users
+2025-03-29T11:02:41.996Z info: Local database connection closed
+2025-03-29T11:02:41.996Z info: Loading previous database snapshot
+2025-03-29T11:02:42.001Z info: Snapshot loaded successfully
+2025-03-29T11:02:42.002Z info: Computing diff using key field: code
+2025-03-29T11:02:42.006Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:02:42.007Z info: Computing diff using key field: id
+2025-03-29T11:02:42.010Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:02:42.011Z info: No changes detected, skipping database update
+2025-03-29T11:02:42.011Z info: Saving current database snapshot
+2025-03-29T11:02:42.013Z info: Previous snapshot backed up successfully
+2025-03-29T11:02:42.016Z info: Snapshot saved successfully
+2025-03-29T11:02:42.017Z info: Sync process complete. Duration: 1201ms
+2025-03-29T11:02:50.876Z info: Starting sync process...
+2025-03-29T11:02:50.876Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:02:51.434Z info: Local database connected successfully
+2025-03-29T11:02:51.434Z info: Executing acc_master query
+2025-03-29T11:02:51.438Z info: Retrieved 382 records from acc_master
+2025-03-29T11:02:51.439Z info: Executing acc_users query
+2025-03-29T11:02:51.450Z info: Retrieved 44 records from acc_users
+2025-03-29T11:02:52.053Z info: Local database connection closed
+2025-03-29T11:02:52.053Z info: Loading previous database snapshot
+2025-03-29T11:02:52.071Z info: Snapshot loaded successfully
+2025-03-29T11:02:52.072Z info: Computing diff using key field: code
+2025-03-29T11:02:52.076Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:02:52.077Z info: Computing diff using key field: id
+2025-03-29T11:02:52.081Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:02:52.082Z info: No changes detected, skipping database update
+2025-03-29T11:02:52.083Z info: Saving current database snapshot
+2025-03-29T11:02:52.084Z info: Previous snapshot backed up successfully
+2025-03-29T11:02:52.087Z info: Snapshot saved successfully
+2025-03-29T11:02:52.088Z info: Sync process complete. Duration: 1212ms
+2025-03-29T11:03:00.934Z info: Starting sync process...
+2025-03-29T11:03:00.935Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:03:01.466Z info: Local database connected successfully
+2025-03-29T11:03:01.466Z info: Executing acc_master query
+2025-03-29T11:03:01.471Z info: Retrieved 382 records from acc_master
+2025-03-29T11:03:01.472Z info: Executing acc_users query
+2025-03-29T11:03:01.482Z info: Retrieved 44 records from acc_users
+2025-03-29T11:03:01.992Z info: Local database connection closed
+2025-03-29T11:03:01.993Z info: Loading previous database snapshot
+2025-03-29T11:03:02.005Z info: Snapshot loaded successfully
+2025-03-29T11:03:02.005Z info: Computing diff using key field: code
+2025-03-29T11:03:02.009Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:03:02.047Z info: Computing diff using key field: id
+2025-03-29T11:03:02.052Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:03:02.053Z info: No changes detected, skipping database update
+2025-03-29T11:03:02.054Z info: Saving current database snapshot
+2025-03-29T11:03:02.055Z info: Previous snapshot backed up successfully
+2025-03-29T11:03:02.059Z info: Snapshot saved successfully
+2025-03-29T11:03:02.062Z info: Sync process complete. Duration: 1128ms
+2025-03-29T11:03:20.045Z info: Starting sync process...
+2025-03-29T11:03:20.046Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:03:20.569Z info: Local database connected successfully
+2025-03-29T11:03:20.570Z info: Executing acc_master query
+2025-03-29T11:03:20.574Z info: Retrieved 382 records from acc_master
+2025-03-29T11:03:20.575Z info: Executing acc_users query
+2025-03-29T11:03:20.587Z info: Retrieved 44 records from acc_users
+2025-03-29T11:03:21.112Z info: Local database connection closed
+2025-03-29T11:03:21.113Z info: Loading previous database snapshot
+2025-03-29T11:03:21.128Z info: Snapshot loaded successfully
+2025-03-29T11:03:21.128Z info: Computing diff using key field: code
+2025-03-29T11:03:21.139Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:03:21.140Z info: Computing diff using key field: id
+2025-03-29T11:03:21.147Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:03:21.148Z info: No changes detected, skipping database update
+2025-03-29T11:03:21.149Z info: Saving current database snapshot
+2025-03-29T11:03:21.150Z info: Previous snapshot backed up successfully
+2025-03-29T11:03:21.154Z info: Snapshot saved successfully
+2025-03-29T11:03:21.155Z info: Sync process complete. Duration: 1110ms
+2025-03-29T11:03:30.098Z info: Starting sync process...
+2025-03-29T11:03:30.099Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:03:30.583Z info: Local database connected successfully
+2025-03-29T11:03:30.584Z info: Executing acc_master query
+2025-03-29T11:03:30.588Z info: Retrieved 382 records from acc_master
+2025-03-29T11:03:30.589Z info: Executing acc_users query
+2025-03-29T11:03:30.599Z info: Retrieved 44 records from acc_users
+2025-03-29T11:03:31.125Z info: Local database connection closed
+2025-03-29T11:03:31.126Z info: Loading previous database snapshot
+2025-03-29T11:03:31.134Z info: Snapshot loaded successfully
+2025-03-29T11:03:31.135Z info: Computing diff using key field: code
+2025-03-29T11:03:31.139Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:03:31.140Z info: Computing diff using key field: id
+2025-03-29T11:03:31.144Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:03:31.145Z info: No changes detected, skipping database update
+2025-03-29T11:03:31.146Z info: Saving current database snapshot
+2025-03-29T11:03:31.147Z info: Previous snapshot backed up successfully
+2025-03-29T11:03:31.150Z info: Snapshot saved successfully
+2025-03-29T11:03:31.151Z info: Sync process complete. Duration: 1053ms
+2025-03-29T11:03:40.139Z info: Starting sync process...
+2025-03-29T11:03:40.140Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:03:40.669Z info: Local database connected successfully
+2025-03-29T11:03:40.670Z info: Executing acc_master query
+2025-03-29T11:03:40.674Z info: Retrieved 382 records from acc_master
+2025-03-29T11:03:40.675Z info: Executing acc_users query
+2025-03-29T11:03:40.685Z info: Retrieved 44 records from acc_users
+2025-03-29T11:03:41.276Z info: Local database connection closed
+2025-03-29T11:03:41.277Z info: Loading previous database snapshot
+2025-03-29T11:03:41.282Z info: Snapshot loaded successfully
+2025-03-29T11:03:41.282Z info: Computing diff using key field: code
+2025-03-29T11:03:41.287Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:03:41.287Z info: Computing diff using key field: id
+2025-03-29T11:03:41.291Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:03:41.292Z info: No changes detected, skipping database update
+2025-03-29T11:03:41.292Z info: Saving current database snapshot
+2025-03-29T11:03:41.294Z info: Previous snapshot backed up successfully
+2025-03-29T11:03:41.297Z info: Snapshot saved successfully
+2025-03-29T11:03:41.297Z info: Sync process complete. Duration: 1158ms
+2025-03-29T11:03:50.193Z info: Starting sync process...
+2025-03-29T11:03:50.193Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:03:50.660Z info: Local database connected successfully
+2025-03-29T11:03:50.661Z info: Executing acc_master query
+2025-03-29T11:03:50.665Z info: Retrieved 382 records from acc_master
+2025-03-29T11:03:50.666Z info: Executing acc_users query
+2025-03-29T11:03:50.677Z info: Retrieved 44 records from acc_users
+2025-03-29T11:03:51.183Z info: Local database connection closed
+2025-03-29T11:03:51.184Z info: Loading previous database snapshot
+2025-03-29T11:03:51.199Z info: Snapshot loaded successfully
+2025-03-29T11:03:51.200Z info: Computing diff using key field: code
+2025-03-29T11:03:51.205Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:03:51.205Z info: Computing diff using key field: id
+2025-03-29T11:03:51.209Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:03:51.210Z info: No changes detected, skipping database update
+2025-03-29T11:03:51.210Z info: Saving current database snapshot
+2025-03-29T11:03:51.212Z info: Previous snapshot backed up successfully
+2025-03-29T11:03:51.215Z info: Snapshot saved successfully
+2025-03-29T11:03:51.215Z info: Sync process complete. Duration: 1022ms
+2025-03-29T11:04:00.305Z info: Starting sync process...
+2025-03-29T11:04:00.306Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:04:00.809Z info: Local database connected successfully
+2025-03-29T11:04:00.810Z info: Executing acc_master query
+2025-03-29T11:04:00.816Z info: Retrieved 382 records from acc_master
+2025-03-29T11:04:00.817Z info: Executing acc_users query
+2025-03-29T11:04:00.827Z info: Retrieved 44 records from acc_users
+2025-03-29T11:04:01.338Z info: Local database connection closed
+2025-03-29T11:04:01.339Z info: Loading previous database snapshot
+2025-03-29T11:04:01.347Z info: Snapshot loaded successfully
+2025-03-29T11:04:01.347Z info: Computing diff using key field: code
+2025-03-29T11:04:01.352Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:04:01.352Z info: Computing diff using key field: id
+2025-03-29T11:04:01.356Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:04:01.357Z info: No changes detected, skipping database update
+2025-03-29T11:04:01.357Z info: Saving current database snapshot
+2025-03-29T11:04:01.358Z info: Previous snapshot backed up successfully
+2025-03-29T11:04:01.362Z info: Snapshot saved successfully
+2025-03-29T11:04:01.362Z info: Sync process complete. Duration: 1057ms
+2025-03-29T11:04:10.352Z info: Starting sync process...
+2025-03-29T11:04:10.353Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:04:10.844Z info: Local database connected successfully
+2025-03-29T11:04:10.845Z info: Executing acc_master query
+2025-03-29T11:04:10.849Z info: Retrieved 382 records from acc_master
+2025-03-29T11:04:10.850Z info: Executing acc_users query
+2025-03-29T11:04:10.863Z info: Retrieved 44 records from acc_users
+2025-03-29T11:04:11.388Z info: Local database connection closed
+2025-03-29T11:04:11.389Z info: Loading previous database snapshot
+2025-03-29T11:04:11.395Z info: Snapshot loaded successfully
+2025-03-29T11:04:11.396Z info: Computing diff using key field: code
+2025-03-29T11:04:11.401Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:04:11.402Z info: Computing diff using key field: id
+2025-03-29T11:04:11.408Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:04:11.409Z info: No changes detected, skipping database update
+2025-03-29T11:04:11.409Z info: Saving current database snapshot
+2025-03-29T11:04:11.410Z info: Previous snapshot backed up successfully
+2025-03-29T11:04:11.414Z info: Snapshot saved successfully
+2025-03-29T11:04:11.414Z info: Sync process complete. Duration: 1062ms
+2025-03-29T11:04:20.398Z info: Starting sync process...
+2025-03-29T11:04:20.399Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:04:20.941Z info: Local database connected successfully
+2025-03-29T11:04:20.942Z info: Executing acc_master query
+2025-03-29T11:04:20.948Z info: Retrieved 382 records from acc_master
+2025-03-29T11:04:20.949Z info: Executing acc_users query
+2025-03-29T11:04:20.960Z info: Retrieved 44 records from acc_users
+2025-03-29T11:04:21.540Z info: Local database connection closed
+2025-03-29T11:04:21.540Z info: Loading previous database snapshot
+2025-03-29T11:04:21.546Z info: Snapshot loaded successfully
+2025-03-29T11:04:21.546Z info: Computing diff using key field: code
+2025-03-29T11:04:21.553Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:04:21.553Z info: Computing diff using key field: id
+2025-03-29T11:04:21.557Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:04:21.557Z info: No changes detected, skipping database update
+2025-03-29T11:04:21.557Z info: Saving current database snapshot
+2025-03-29T11:04:21.559Z info: Previous snapshot backed up successfully
+2025-03-29T11:04:21.563Z info: Snapshot saved successfully
+2025-03-29T11:04:21.564Z info: Sync process complete. Duration: 1166ms
+2025-03-29T11:04:30.460Z info: Starting sync process...
+2025-03-29T11:04:30.460Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:04:30.937Z info: Local database connected successfully
+2025-03-29T11:04:30.937Z info: Executing acc_master query
+2025-03-29T11:04:30.942Z info: Retrieved 382 records from acc_master
+2025-03-29T11:04:30.942Z info: Executing acc_users query
+2025-03-29T11:04:30.952Z info: Retrieved 44 records from acc_users
+2025-03-29T11:04:31.444Z info: Local database connection closed
+2025-03-29T11:04:31.444Z info: Loading previous database snapshot
+2025-03-29T11:04:31.451Z info: Snapshot loaded successfully
+2025-03-29T11:04:31.452Z info: Computing diff using key field: code
+2025-03-29T11:04:31.455Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:04:31.456Z info: Computing diff using key field: id
+2025-03-29T11:04:31.459Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:04:31.460Z info: No changes detected, skipping database update
+2025-03-29T11:04:31.460Z info: Saving current database snapshot
+2025-03-29T11:04:31.461Z info: Previous snapshot backed up successfully
+2025-03-29T11:04:31.465Z info: Snapshot saved successfully
+2025-03-29T11:04:31.465Z info: Sync process complete. Duration: 1005ms
+2025-03-29T11:04:40.507Z info: Starting sync process...
+2025-03-29T11:04:40.508Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:04:40.989Z info: Local database connected successfully
+2025-03-29T11:04:40.990Z info: Executing acc_master query
+2025-03-29T11:04:40.994Z info: Retrieved 382 records from acc_master
+2025-03-29T11:04:40.995Z info: Executing acc_users query
+2025-03-29T11:04:41.005Z info: Retrieved 44 records from acc_users
+2025-03-29T11:04:41.526Z info: Local database connection closed
+2025-03-29T11:04:41.527Z info: Loading previous database snapshot
+2025-03-29T11:04:41.540Z info: Snapshot loaded successfully
+2025-03-29T11:04:41.541Z info: Computing diff using key field: code
+2025-03-29T11:04:41.546Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:04:41.547Z info: Computing diff using key field: id
+2025-03-29T11:04:41.550Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:04:41.551Z info: No changes detected, skipping database update
+2025-03-29T11:04:41.551Z info: Saving current database snapshot
+2025-03-29T11:04:41.553Z info: Previous snapshot backed up successfully
+2025-03-29T11:04:41.556Z info: Snapshot saved successfully
+2025-03-29T11:04:41.556Z info: Sync process complete. Duration: 1049ms
+2025-03-29T11:04:50.570Z info: Starting sync process...
+2025-03-29T11:04:50.571Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:04:51.057Z info: Local database connected successfully
+2025-03-29T11:04:51.058Z info: Executing acc_master query
+2025-03-29T11:04:51.062Z info: Retrieved 382 records from acc_master
+2025-03-29T11:04:51.063Z info: Executing acc_users query
+2025-03-29T11:04:51.075Z info: Retrieved 44 records from acc_users
+2025-03-29T11:04:51.590Z info: Local database connection closed
+2025-03-29T11:04:51.591Z info: Loading previous database snapshot
+2025-03-29T11:04:51.598Z info: Snapshot loaded successfully
+2025-03-29T11:04:51.598Z info: Computing diff using key field: code
+2025-03-29T11:04:51.603Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:04:51.604Z info: Computing diff using key field: id
+2025-03-29T11:04:51.607Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:04:51.608Z info: No changes detected, skipping database update
+2025-03-29T11:04:51.608Z info: Saving current database snapshot
+2025-03-29T11:04:51.610Z info: Previous snapshot backed up successfully
+2025-03-29T11:04:51.613Z info: Snapshot saved successfully
+2025-03-29T11:04:51.614Z info: Sync process complete. Duration: 1044ms
+2025-03-29T11:05:00.638Z info: Starting sync process...
+2025-03-29T11:05:00.639Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:05:01.136Z info: Local database connected successfully
+2025-03-29T11:05:01.136Z info: Executing acc_master query
+2025-03-29T11:05:01.142Z info: Retrieved 382 records from acc_master
+2025-03-29T11:05:01.142Z info: Executing acc_users query
+2025-03-29T11:05:01.153Z info: Retrieved 44 records from acc_users
+2025-03-29T11:05:01.769Z info: Local database connection closed
+2025-03-29T11:05:01.770Z info: Loading previous database snapshot
+2025-03-29T11:05:01.786Z info: Snapshot loaded successfully
+2025-03-29T11:05:01.786Z info: Computing diff using key field: code
+2025-03-29T11:05:01.794Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:05:01.794Z info: Computing diff using key field: id
+2025-03-29T11:05:01.800Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:05:01.801Z info: No changes detected, skipping database update
+2025-03-29T11:05:01.801Z info: Saving current database snapshot
+2025-03-29T11:05:01.802Z info: Previous snapshot backed up successfully
+2025-03-29T11:05:01.807Z info: Snapshot saved successfully
+2025-03-29T11:05:01.807Z info: Sync process complete. Duration: 1169ms
+2025-03-29T11:05:10.690Z info: Starting sync process...
+2025-03-29T11:05:10.691Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:05:11.186Z info: Local database connected successfully
+2025-03-29T11:05:11.186Z info: Executing acc_master query
+2025-03-29T11:05:11.190Z info: Retrieved 382 records from acc_master
+2025-03-29T11:05:11.191Z info: Executing acc_users query
+2025-03-29T11:05:11.205Z info: Retrieved 44 records from acc_users
+2025-03-29T11:05:11.706Z info: Local database connection closed
+2025-03-29T11:05:11.706Z info: Loading previous database snapshot
+2025-03-29T11:05:11.713Z info: Snapshot loaded successfully
+2025-03-29T11:05:11.714Z info: Computing diff using key field: code
+2025-03-29T11:05:11.717Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:05:11.718Z info: Computing diff using key field: id
+2025-03-29T11:05:11.721Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:05:11.722Z info: No changes detected, skipping database update
+2025-03-29T11:05:11.722Z info: Saving current database snapshot
+2025-03-29T11:05:11.723Z info: Previous snapshot backed up successfully
+2025-03-29T11:05:11.727Z info: Snapshot saved successfully
+2025-03-29T11:05:11.727Z info: Sync process complete. Duration: 1037ms
+2025-03-29T11:05:20.747Z info: Starting sync process...
+2025-03-29T11:05:20.748Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:05:21.323Z info: Local database connected successfully
+2025-03-29T11:05:21.324Z info: Executing acc_master query
+2025-03-29T11:05:21.329Z info: Retrieved 382 records from acc_master
+2025-03-29T11:05:21.329Z info: Executing acc_users query
+2025-03-29T11:05:21.340Z info: Retrieved 44 records from acc_users
+2025-03-29T11:05:21.917Z info: Local database connection closed
+2025-03-29T11:05:21.918Z info: Loading previous database snapshot
+2025-03-29T11:05:21.924Z info: Snapshot loaded successfully
+2025-03-29T11:05:21.925Z info: Computing diff using key field: code
+2025-03-29T11:05:21.932Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:05:21.932Z info: Computing diff using key field: id
+2025-03-29T11:05:21.937Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:05:21.938Z info: No changes detected, skipping database update
+2025-03-29T11:05:21.938Z info: Saving current database snapshot
+2025-03-29T11:05:21.940Z info: Previous snapshot backed up successfully
+2025-03-29T11:05:21.945Z info: Snapshot saved successfully
+2025-03-29T11:05:21.946Z info: Sync process complete. Duration: 1199ms
+2025-03-29T11:05:30.809Z info: Starting sync process...
+2025-03-29T11:05:30.810Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:05:31.868Z info: Local database connected successfully
+2025-03-29T11:05:31.869Z info: Executing acc_master query
+2025-03-29T11:05:31.875Z info: Retrieved 382 records from acc_master
+2025-03-29T11:05:31.875Z info: Executing acc_users query
+2025-03-29T11:05:31.887Z info: Retrieved 44 records from acc_users
+2025-03-29T11:05:31.918Z info: Local database connection closed
+2025-03-29T11:05:31.919Z info: Loading previous database snapshot
+2025-03-29T11:05:31.923Z info: Snapshot loaded successfully
+2025-03-29T11:05:31.924Z info: Computing diff using key field: code
+2025-03-29T11:05:31.929Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:05:31.929Z info: Computing diff using key field: id
+2025-03-29T11:05:31.933Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:05:31.934Z info: No changes detected, skipping database update
+2025-03-29T11:05:31.934Z info: Saving current database snapshot
+2025-03-29T11:05:31.936Z info: Previous snapshot backed up successfully
+2025-03-29T11:05:31.940Z info: Snapshot saved successfully
+2025-03-29T11:05:31.940Z info: Sync process complete. Duration: 1131ms
+2025-03-29T11:05:40.888Z info: Starting sync process...
+2025-03-29T11:05:40.889Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:05:41.393Z info: Local database connected successfully
+2025-03-29T11:05:41.394Z info: Executing acc_master query
+2025-03-29T11:05:41.398Z info: Retrieved 382 records from acc_master
+2025-03-29T11:05:41.398Z info: Executing acc_users query
+2025-03-29T11:05:41.410Z info: Retrieved 44 records from acc_users
+2025-03-29T11:05:42.012Z info: Local database connection closed
+2025-03-29T11:05:42.013Z info: Loading previous database snapshot
+2025-03-29T11:05:42.025Z info: Snapshot loaded successfully
+2025-03-29T11:05:42.025Z info: Computing diff using key field: code
+2025-03-29T11:05:42.029Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:05:42.029Z info: Computing diff using key field: id
+2025-03-29T11:05:42.033Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:05:42.033Z info: No changes detected, skipping database update
+2025-03-29T11:05:42.034Z info: Saving current database snapshot
+2025-03-29T11:05:42.035Z info: Previous snapshot backed up successfully
+2025-03-29T11:05:42.039Z info: Snapshot saved successfully
+2025-03-29T11:05:42.039Z info: Sync process complete. Duration: 1151ms
+2025-03-29T11:05:50.936Z info: Starting sync process...
+2025-03-29T11:05:50.937Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:05:51.442Z info: Local database connected successfully
+2025-03-29T11:05:51.442Z info: Executing acc_master query
+2025-03-29T11:05:51.446Z info: Retrieved 382 records from acc_master
+2025-03-29T11:05:51.447Z info: Executing acc_users query
+2025-03-29T11:05:51.459Z info: Retrieved 44 records from acc_users
+2025-03-29T11:05:51.972Z info: Local database connection closed
+2025-03-29T11:05:51.973Z info: Loading previous database snapshot
+2025-03-29T11:05:51.985Z info: Snapshot loaded successfully
+2025-03-29T11:05:51.986Z info: Computing diff using key field: code
+2025-03-29T11:05:51.990Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:05:51.991Z info: Computing diff using key field: id
+2025-03-29T11:05:51.995Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:05:51.996Z info: No changes detected, skipping database update
+2025-03-29T11:05:51.996Z info: Saving current database snapshot
+2025-03-29T11:05:51.998Z info: Previous snapshot backed up successfully
+2025-03-29T11:05:52.001Z info: Snapshot saved successfully
+2025-03-29T11:05:52.001Z info: Sync process complete. Duration: 1065ms
+2025-03-29T11:06:00.017Z info: Starting sync process...
+2025-03-29T11:06:00.018Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:06:01.097Z info: Local database connected successfully
+2025-03-29T11:06:01.098Z info: Executing acc_master query
+2025-03-29T11:06:01.110Z info: Retrieved 382 records from acc_master
+2025-03-29T11:06:01.111Z info: Executing acc_users query
+2025-03-29T11:06:01.136Z info: Retrieved 44 records from acc_users
+2025-03-29T11:06:01.162Z info: Local database connection closed
+2025-03-29T11:06:01.163Z info: Loading previous database snapshot
+2025-03-29T11:06:01.170Z info: Snapshot loaded successfully
+2025-03-29T11:06:01.171Z info: Computing diff using key field: code
+2025-03-29T11:06:01.175Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:06:01.176Z info: Computing diff using key field: id
+2025-03-29T11:06:01.179Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:06:01.180Z info: No changes detected, skipping database update
+2025-03-29T11:06:01.181Z info: Saving current database snapshot
+2025-03-29T11:06:01.183Z info: Previous snapshot backed up successfully
+2025-03-29T11:06:01.187Z info: Snapshot saved successfully
+2025-03-29T11:06:01.187Z info: Sync process complete. Duration: 1170ms
+2025-03-29T11:06:10.108Z info: Starting sync process...
+2025-03-29T11:06:10.109Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:06:11.209Z info: Local database connected successfully
+2025-03-29T11:06:11.210Z info: Executing acc_master query
+2025-03-29T11:06:11.214Z info: Retrieved 382 records from acc_master
+2025-03-29T11:06:11.215Z info: Executing acc_users query
+2025-03-29T11:06:11.225Z info: Retrieved 44 records from acc_users
+2025-03-29T11:06:11.250Z info: Local database connection closed
+2025-03-29T11:06:11.250Z info: Loading previous database snapshot
+2025-03-29T11:06:11.257Z info: Snapshot loaded successfully
+2025-03-29T11:06:11.258Z info: Computing diff using key field: code
+2025-03-29T11:06:11.262Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:06:11.263Z info: Computing diff using key field: id
+2025-03-29T11:06:11.266Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:06:11.267Z info: No changes detected, skipping database update
+2025-03-29T11:06:11.267Z info: Saving current database snapshot
+2025-03-29T11:06:11.268Z info: Previous snapshot backed up successfully
+2025-03-29T11:06:11.271Z info: Snapshot saved successfully
+2025-03-29T11:06:11.272Z info: Sync process complete. Duration: 1164ms
+2025-03-29T11:06:20.159Z info: Starting sync process...
+2025-03-29T11:06:20.160Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:06:21.262Z info: Local database connected successfully
+2025-03-29T11:06:21.263Z info: Executing acc_master query
+2025-03-29T11:06:21.275Z info: Retrieved 382 records from acc_master
+2025-03-29T11:06:21.276Z info: Executing acc_users query
+2025-03-29T11:06:21.298Z info: Retrieved 44 records from acc_users
+2025-03-29T11:06:21.330Z info: Local database connection closed
+2025-03-29T11:06:21.330Z info: Loading previous database snapshot
+2025-03-29T11:06:21.335Z info: Snapshot loaded successfully
+2025-03-29T11:06:21.336Z info: Computing diff using key field: code
+2025-03-29T11:06:21.339Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:06:21.340Z info: Computing diff using key field: id
+2025-03-29T11:06:21.343Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:06:21.344Z info: No changes detected, skipping database update
+2025-03-29T11:06:21.344Z info: Saving current database snapshot
+2025-03-29T11:06:21.345Z info: Previous snapshot backed up successfully
+2025-03-29T11:06:21.350Z info: Snapshot saved successfully
+2025-03-29T11:06:21.350Z info: Sync process complete. Duration: 1191ms
+2025-03-29T11:06:30.240Z info: Starting sync process...
+2025-03-29T11:06:30.241Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T11:06:31.291Z info: Local database connected successfully
+2025-03-29T11:06:31.292Z info: Executing acc_master query
+2025-03-29T11:06:31.302Z info: Retrieved 382 records from acc_master
+2025-03-29T11:06:31.303Z info: Executing acc_users query
+2025-03-29T11:06:31.329Z info: Retrieved 44 records from acc_users
+2025-03-29T11:06:31.374Z info: Local database connection closed
+2025-03-29T11:06:31.374Z info: Loading previous database snapshot
+2025-03-29T11:06:31.379Z info: Snapshot loaded successfully
+2025-03-29T11:06:31.380Z info: Computing diff using key field: code
+2025-03-29T11:06:31.383Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:06:31.384Z info: Computing diff using key field: id
+2025-03-29T11:06:31.388Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T11:06:31.389Z info: No changes detected, skipping database update
+2025-03-29T11:06:31.389Z info: Saving current database snapshot
+2025-03-29T11:06:31.390Z info: Previous snapshot backed up successfully
+2025-03-29T11:06:31.393Z info: Snapshot saved successfully
+2025-03-29T11:06:31.394Z info: Sync process complete. Duration: 1154ms
+2025-03-29T11:06:31.800Z info: Shutting down sync service...
+2025-03-29T12:35:34.621Z info: Web database connected successfully
+2025-03-29T12:35:34.626Z info: Started database connections
+2025-03-29T12:35:34.627Z info: Scheduling sync process to run every 10 seconds
+2025-03-29T12:35:34.649Z info: Server is running on port 5000
+2025-03-29T12:35:34.650Z info: Sync service started successfully
+2025-03-29T12:35:40.682Z info: Starting sync process...
+2025-03-29T12:35:40.684Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T12:35:43.619Z info: Local database connected successfully
+2025-03-29T12:35:43.619Z info: Executing acc_master query
+2025-03-29T12:35:43.627Z info: Retrieved 382 records from acc_master
+2025-03-29T12:35:43.628Z info: Executing acc_users query
+2025-03-29T12:35:43.649Z info: Retrieved 44 records from acc_users
+2025-03-29T12:35:44.190Z info: Local database connection closed
+2025-03-29T12:35:44.193Z info: Loading previous database snapshot
+2025-03-29T12:35:44.207Z info: Snapshot loaded successfully
+2025-03-29T12:35:44.208Z info: Computing diff using key field: code
+2025-03-29T12:35:44.228Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T12:35:44.230Z info: Computing diff using key field: id
+2025-03-29T12:35:44.256Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T12:35:44.265Z info: No changes detected, skipping database update
+2025-03-29T12:35:44.265Z info: Saving current database snapshot
+2025-03-29T12:35:44.270Z info: Previous snapshot backed up successfully
+2025-03-29T12:35:44.276Z info: Snapshot saved successfully
+2025-03-29T12:35:44.279Z info: Sync process complete. Duration: 3597ms
+2025-03-29T12:35:50.757Z info: Starting sync process...
+2025-03-29T12:35:50.759Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T12:35:52.200Z info: Local database connected successfully
+2025-03-29T12:35:52.200Z info: Executing acc_master query
+2025-03-29T12:35:52.205Z info: Retrieved 382 records from acc_master
+2025-03-29T12:35:52.205Z info: Executing acc_users query
+2025-03-29T12:35:52.217Z info: Retrieved 44 records from acc_users
+2025-03-29T12:35:52.241Z info: Local database connection closed
+2025-03-29T12:35:52.242Z info: Loading previous database snapshot
+2025-03-29T12:35:52.252Z info: Snapshot loaded successfully
+2025-03-29T12:35:52.253Z info: Computing diff using key field: code
+2025-03-29T12:35:52.259Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T12:35:52.259Z info: Computing diff using key field: id
+2025-03-29T12:35:52.265Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T12:35:52.266Z info: No changes detected, skipping database update
+2025-03-29T12:35:52.266Z info: Saving current database snapshot
+2025-03-29T12:35:52.268Z info: Previous snapshot backed up successfully
+2025-03-29T12:35:52.273Z info: Snapshot saved successfully
+2025-03-29T12:35:52.273Z info: Sync process complete. Duration: 1516ms
+2025-03-29T12:36:00.830Z info: Starting sync process...
+2025-03-29T12:36:00.830Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T12:36:01.534Z info: Local database connected successfully
+2025-03-29T12:36:01.535Z info: Executing acc_master query
+2025-03-29T12:36:01.542Z info: Retrieved 382 records from acc_master
+2025-03-29T12:36:01.542Z info: Executing acc_users query
+2025-03-29T12:36:01.557Z info: Retrieved 44 records from acc_users
+2025-03-29T12:36:02.145Z info: Local database connection closed
+2025-03-29T12:36:02.146Z info: Loading previous database snapshot
+2025-03-29T12:36:02.152Z info: Snapshot loaded successfully
+2025-03-29T12:36:02.153Z info: Computing diff using key field: code
+2025-03-29T12:36:02.164Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T12:36:02.164Z info: Computing diff using key field: id
+2025-03-29T12:36:02.169Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-03-29T12:36:02.170Z info: No changes detected, skipping database update
+2025-03-29T12:36:02.170Z info: Saving current database snapshot
+2025-03-29T12:36:02.173Z info: Previous snapshot backed up successfully
+2025-03-29T12:36:02.178Z info: Snapshot saved successfully
+2025-03-29T12:36:02.180Z info: Sync process complete. Duration: 1350ms
+2025-03-29T12:36:10.901Z info: Starting sync process...
+2025-03-29T12:36:10.902Z info: Attempting to connect to local database (Attempt 1)...
+2025-03-29T12:36:11.602Z info: Local database connected successfully
+2025-03-29T12:36:11.603Z info: Executing acc_master query
+2025-03-29T12:36:11.616Z info: Retrieved 382 records from acc_master
+2025-03-29T12:36:11.617Z info: Executing acc_users query
+2025-03-29T12:36:11.647Z info: Retrieved 44 records from acc_users
+2025-03-29T12:36:11.949Z info: Shutting down sync service...
