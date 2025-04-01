@@ -82,8 +82,6 @@ async function fetchLocalData() {
       WHERE super_code = 'SUNCR'
     `;
 
-    // For acc_users, explicitly list needed columns instead of SELECT *
-    // This is a placeholder - replace with your actual columns
     const accUsersQuery = `SELECT * FROM acc_users`;
 
     // Execute queries in parallel for better performance
