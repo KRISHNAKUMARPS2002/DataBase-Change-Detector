@@ -6037,3 +6037,1310 @@
 2025-03-29T12:36:11.617Z info: Executing acc_users query
 2025-03-29T12:36:11.647Z info: Retrieved 44 records from acc_users
 2025-03-29T12:36:11.949Z info: Shutting down sync service...
+2025-04-01T04:34:44.706Z info: Web database connected successfully
+2025-04-01T04:34:44.713Z info: Started database connections
+2025-04-01T04:34:44.714Z info: Scheduling sync process to run every 10 seconds
+2025-04-01T04:34:44.734Z info: Server is running on port 5000
+2025-04-01T04:34:44.735Z info: Sync service started successfully
+2025-04-01T04:34:50.793Z info: Starting sync process...
+2025-04-01T04:34:50.947Z info: Creating new local database connection
+2025-04-01T04:34:53.697Z error: Error fetching local data: [odbc] Error executing the sql statement
+2025-04-01T04:34:54.050Z error: Sync process failed: [odbc] Error executing the sql statement
+2025-04-01T04:34:54.052Z error: Unhandled error in sync process: [odbc] Error executing the sql statement
+2025-04-01T04:35:00.887Z info: Starting sync process...
+2025-04-01T04:35:00.929Z error: Error fetching local data: [odbc] Error executing the sql statement
+2025-04-01T04:35:01.391Z error: Sync process failed: [odbc] Error executing the sql statement
+2025-04-01T04:35:01.392Z error: Unhandled error in sync process: [odbc] Error executing the sql statement
+2025-04-01T04:35:10.819Z info: Shutting down sync service...
+2025-04-01T04:35:10.883Z info: All database connections closed
+2025-04-01T04:43:30.122Z info: Web database connected successfully
+2025-04-01T04:43:30.128Z info: Started database connections
+2025-04-01T04:43:30.129Z info: Scheduling sync process to run every 10 seconds
+2025-04-01T04:43:30.138Z info: Starting sync process...
+2025-04-01T04:43:30.149Z info: Server is running on port 5000
+2025-04-01T04:43:30.150Z info: Sync service started successfully
+2025-04-01T04:43:30.185Z info: Creating new local database connection
+2025-04-01T04:43:30.903Z error: Error fetching local data: [odbc] Error executing the sql statement
+2025-04-01T04:43:31.018Z error: Sync process failed: [odbc] Error executing the sql statement
+2025-04-01T04:43:31.019Z error: Unhandled error in sync process: [odbc] Error executing the sql statement
+2025-04-01T04:43:40.234Z info: Starting sync process...
+2025-04-01T04:43:40.301Z error: Error fetching local data: [odbc] Error executing the sql statement
+2025-04-01T04:43:40.344Z error: Sync process failed: [odbc] Error executing the sql statement
+2025-04-01T04:43:40.345Z error: Unhandled error in sync process: [odbc] Error executing the sql statement
+2025-04-01T04:43:43.718Z info: Shutting down sync service...
+2025-04-01T04:43:43.744Z info: All database connections closed
+2025-04-01T04:50:16.635Z info: Web database connected successfully
+2025-04-01T04:50:16.639Z info: Started database connections
+2025-04-01T04:50:16.639Z info: Scheduling sync process to run every 10 seconds
+2025-04-01T04:50:16.648Z info: Server is running on port 5000
+2025-04-01T04:50:16.648Z info: Sync service started successfully
+2025-04-01T04:50:20.673Z info: Starting sync process...
+2025-04-01T04:50:20.707Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T04:50:21.284Z info: Local database connected successfully
+2025-04-01T04:50:21.288Z error: Error fetching local data: [odbc] Error executing the sql statement
+2025-04-01T04:50:21.320Z error: Sync process failed: [odbc] Error executing the sql statement
+2025-04-01T04:50:21.321Z error: Unhandled error in sync process: [odbc] Error executing the sql statement
+2025-04-01T04:50:30.733Z info: Starting sync process...
+2025-04-01T04:50:30.768Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T04:50:30.794Z info: Local database connected successfully
+2025-04-01T04:50:30.796Z error: Error fetching local data: [odbc] Error executing the sql statement
+2025-04-01T04:50:30.829Z error: Sync process failed: [odbc] Error executing the sql statement
+2025-04-01T04:50:30.830Z error: Unhandled error in sync process: [odbc] Error executing the sql statement
+2025-04-01T04:50:40.797Z info: Starting sync process...
+2025-04-01T04:50:40.831Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T04:50:40.848Z info: Local database connected successfully
+2025-04-01T04:50:40.853Z error: Error fetching local data: [odbc] Error executing the sql statement
+2025-04-01T04:50:40.888Z error: Sync process failed: [odbc] Error executing the sql statement
+2025-04-01T04:50:40.889Z error: Unhandled error in sync process: [odbc] Error executing the sql statement
+2025-04-01T04:50:44.682Z info: Shutting down sync service...
+2025-04-01T04:50:44.722Z info: All database connections closed
+2025-04-01T05:05:55.711Z info: Web database connected successfully
+2025-04-01T05:05:55.715Z info: Started database connections
+2025-04-01T05:05:55.715Z info: Scheduling sync process to run every 10 seconds
+2025-04-01T05:05:55.722Z info: Server is running on port 5000
+2025-04-01T05:05:55.723Z info: Sync service started successfully
+2025-04-01T05:06:00.761Z info: Starting sync process...
+2025-04-01T05:06:00.792Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:06:00.872Z info: Local database connected successfully
+2025-04-01T05:06:00.883Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:06:00.884Z info: Loading previous database snapshot
+2025-04-01T05:06:00.885Z info: Created snapshot directory: ./data
+2025-04-01T05:06:00.886Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:06:00.892Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:06:00.895Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:06:00.895Z info: Detected 425 changes, updating web database
+2025-04-01T05:06:00.931Z error: Error in syncToWebDB: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:06:10.806Z warn: Previous sync still running, skipping this run
+2025-04-01T05:06:13.917Z error: Sync process failed: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:06:13.919Z error: Unhandled error in sync process: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:06:20.882Z info: Starting sync process...
+2025-04-01T05:06:20.909Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:06:20.924Z info: Local database connected successfully
+2025-04-01T05:06:20.941Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:06:20.942Z info: Loading previous database snapshot
+2025-04-01T05:06:20.943Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:06:20.945Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:06:20.948Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:06:20.949Z info: Detected 425 changes, updating web database
+2025-04-01T05:06:20.978Z error: Error in syncToWebDB: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:06:30.944Z warn: Previous sync still running, skipping this run
+2025-04-01T05:06:33.315Z error: Sync process failed: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:06:33.316Z error: Unhandled error in sync process: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:06:37.195Z info: Shutting down sync service...
+2025-04-01T05:06:37.198Z info: All database connections closed
+2025-04-01T05:23:16.289Z info: Web database connected successfully
+2025-04-01T05:23:16.292Z info: Started database connections
+2025-04-01T05:23:16.292Z info: Scheduling sync process to run every 10 seconds
+2025-04-01T05:23:16.309Z info: Server is running on port 5000
+2025-04-01T05:23:16.309Z info: Sync service started successfully
+2025-04-01T05:23:20.315Z info: Starting sync process...
+2025-04-01T05:23:20.346Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:23:21.805Z info: Local database connected successfully
+2025-04-01T05:23:21.826Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:23:21.827Z info: Loading previous database snapshot
+2025-04-01T05:23:21.828Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:23:21.832Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:23:21.835Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:23:21.835Z info: Detected 425 changes, updating web database
+2025-04-01T05:23:30.389Z warn: Previous sync still running, skipping this run
+2025-04-01T05:23:36.119Z info: Processed 382 acc_master inserts
+2025-04-01T05:23:36.160Z error: Error in syncToWebDB: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:23:38.103Z error: Sync process failed: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:23:38.105Z error: Unhandled error in sync process: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:23:40.477Z info: Starting sync process...
+2025-04-01T05:23:40.509Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:23:40.525Z info: Local database connected successfully
+2025-04-01T05:23:40.547Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:23:40.548Z info: Loading previous database snapshot
+2025-04-01T05:23:40.548Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:23:40.550Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:23:40.553Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:23:40.554Z info: Detected 425 changes, updating web database
+2025-04-01T05:23:50.528Z warn: Previous sync still running, skipping this run
+2025-04-01T05:23:54.014Z info: Processed 382 acc_master inserts
+2025-04-01T05:23:54.046Z error: Error in syncToWebDB: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:23:55.368Z error: Sync process failed: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:23:55.370Z error: Unhandled error in sync process: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:24:00.586Z info: Starting sync process...
+2025-04-01T05:24:00.615Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:24:00.630Z info: Local database connected successfully
+2025-04-01T05:24:00.649Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:24:00.650Z info: Loading previous database snapshot
+2025-04-01T05:24:00.650Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:24:00.651Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:24:00.654Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:24:00.654Z info: Detected 425 changes, updating web database
+2025-04-01T05:24:04.768Z info: Shutting down sync service...
+2025-04-01T05:24:07.322Z info: Shutting down sync service...
+2025-04-01T05:36:07.871Z info: Web database connected successfully
+2025-04-01T05:36:07.876Z info: Started database connections
+2025-04-01T05:36:07.877Z info: Scheduling sync process to run every 10 seconds
+2025-04-01T05:36:07.891Z info: Server is running on port 5000
+2025-04-01T05:36:07.891Z info: Sync service started successfully
+2025-04-01T05:36:10.900Z info: Starting sync process...
+2025-04-01T05:36:10.936Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:36:11.019Z info: Local database connected successfully
+2025-04-01T05:36:11.029Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:36:11.029Z info: Loading previous database snapshot
+2025-04-01T05:36:11.030Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:36:11.034Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:36:11.037Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:36:11.037Z info: Detected 425 changes, updating web database
+2025-04-01T05:36:11.072Z error: Error in syncToWebDB: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:36:20.978Z warn: Previous sync still running, skipping this run
+2025-04-01T05:36:25.570Z error: Sync process failed: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:36:25.571Z error: Unhandled error in sync process: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:36:30.034Z info: Starting sync process...
+2025-04-01T05:36:30.173Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:36:30.188Z info: Local database connected successfully
+2025-04-01T05:36:30.220Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:36:30.221Z info: Loading previous database snapshot
+2025-04-01T05:36:30.222Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:36:30.223Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:36:30.225Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:36:30.226Z info: Detected 425 changes, updating web database
+2025-04-01T05:36:30.258Z error: Error in syncToWebDB: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:36:40.086Z warn: Previous sync still running, skipping this run
+2025-04-01T05:36:44.258Z error: Sync process failed: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:36:44.259Z error: Unhandled error in sync process: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:36:50.146Z info: Starting sync process...
+2025-04-01T05:36:50.286Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:36:50.299Z info: Local database connected successfully
+2025-04-01T05:36:50.325Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:36:50.326Z info: Loading previous database snapshot
+2025-04-01T05:36:50.326Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:36:50.328Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:36:50.330Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:36:50.330Z info: Detected 425 changes, updating web database
+2025-04-01T05:36:50.365Z error: Error in syncToWebDB: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:37:00.238Z warn: Previous sync still running, skipping this run
+2025-04-01T05:37:04.873Z error: Sync process failed: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:37:04.873Z error: Unhandled error in sync process: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:37:10.307Z info: Starting sync process...
+2025-04-01T05:37:10.340Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:37:10.355Z info: Local database connected successfully
+2025-04-01T05:37:10.373Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:37:10.374Z info: Loading previous database snapshot
+2025-04-01T05:37:10.374Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:37:10.375Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:37:10.377Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:37:10.378Z info: Detected 425 changes, updating web database
+2025-04-01T05:37:10.430Z error: Error in syncToWebDB: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:37:20.375Z warn: Previous sync still running, skipping this run
+2025-04-01T05:37:23.467Z error: Sync process failed: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:37:23.467Z error: Unhandled error in sync process: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:37:30.429Z info: Starting sync process...
+2025-04-01T05:37:30.462Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:37:30.468Z info: Local database connected successfully
+2025-04-01T05:37:30.482Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:37:30.483Z info: Loading previous database snapshot
+2025-04-01T05:37:30.483Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:37:30.486Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:37:30.489Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:37:30.489Z info: Detected 425 changes, updating web database
+2025-04-01T05:37:30.521Z error: Error in syncToWebDB: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:37:40.482Z warn: Previous sync still running, skipping this run
+2025-04-01T05:37:43.042Z error: Sync process failed: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:37:43.043Z error: Unhandled error in sync process: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:37:50.551Z info: Starting sync process...
+2025-04-01T05:37:50.585Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:37:50.599Z info: Local database connected successfully
+2025-04-01T05:37:50.630Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:37:50.631Z info: Loading previous database snapshot
+2025-04-01T05:37:50.631Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:37:50.632Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:37:50.634Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:37:50.634Z info: Detected 425 changes, updating web database
+2025-04-01T05:37:50.666Z error: Error in syncToWebDB: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:38:00.611Z warn: Previous sync still running, skipping this run
+2025-04-01T05:38:05.462Z error: Sync process failed: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:38:05.462Z error: Unhandled error in sync process: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:38:10.692Z info: Starting sync process...
+2025-04-01T05:38:10.727Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:38:10.742Z info: Local database connected successfully
+2025-04-01T05:38:10.761Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:38:10.761Z info: Loading previous database snapshot
+2025-04-01T05:38:10.762Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:38:10.764Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:38:10.766Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:38:10.766Z info: Detected 425 changes, updating web database
+2025-04-01T05:38:10.819Z error: Error in syncToWebDB: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:38:20.749Z warn: Previous sync still running, skipping this run
+2025-04-01T05:38:23.958Z error: Sync process failed: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:38:23.958Z error: Unhandled error in sync process: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:38:30.835Z info: Starting sync process...
+2025-04-01T05:38:30.870Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:38:30.877Z info: Local database connected successfully
+2025-04-01T05:38:30.895Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:38:30.896Z info: Loading previous database snapshot
+2025-04-01T05:38:30.896Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:38:30.897Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:38:30.899Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:38:30.900Z info: Detected 425 changes, updating web database
+2025-04-01T05:38:30.934Z error: Error in syncToWebDB: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:38:40.907Z warn: Previous sync still running, skipping this run
+2025-04-01T05:38:44.133Z error: Sync process failed: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:38:44.133Z error: Unhandled error in sync process: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:39:00.088Z info: Starting sync process...
+2025-04-01T05:39:00.128Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:39:00.143Z info: Local database connected successfully
+2025-04-01T05:39:00.167Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:39:00.168Z info: Loading previous database snapshot
+2025-04-01T05:39:00.168Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:39:00.169Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:39:00.171Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:39:00.171Z info: Detected 425 changes, updating web database
+2025-04-01T05:39:00.226Z error: Error in syncToWebDB: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:39:10.145Z warn: Previous sync still running, skipping this run
+2025-04-01T05:39:14.656Z error: Sync process failed: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:39:14.657Z error: Unhandled error in sync process: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:39:20.223Z info: Starting sync process...
+2025-04-01T05:39:20.255Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:39:20.269Z info: Local database connected successfully
+2025-04-01T05:39:20.296Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:39:20.297Z info: Loading previous database snapshot
+2025-04-01T05:39:20.297Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:39:20.299Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:39:20.300Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:39:20.301Z info: Detected 425 changes, updating web database
+2025-04-01T05:39:20.334Z error: Error in syncToWebDB: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:39:30.294Z warn: Previous sync still running, skipping this run
+2025-04-01T05:39:33.372Z error: Sync process failed: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:39:33.373Z error: Unhandled error in sync process: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:39:40.354Z info: Starting sync process...
+2025-04-01T05:39:40.388Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:39:40.396Z info: Local database connected successfully
+2025-04-01T05:39:40.410Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:39:40.411Z info: Loading previous database snapshot
+2025-04-01T05:39:40.411Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:39:40.412Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:39:40.414Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:39:40.415Z info: Detected 425 changes, updating web database
+2025-04-01T05:39:40.448Z error: Error in syncToWebDB: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:39:50.416Z warn: Previous sync still running, skipping this run
+2025-04-01T05:39:53.613Z error: Sync process failed: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:39:53.614Z error: Unhandled error in sync process: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:40:00.477Z info: Starting sync process...
+2025-04-01T05:40:00.511Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:40:00.520Z info: Local database connected successfully
+2025-04-01T05:40:00.533Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:40:00.533Z info: Loading previous database snapshot
+2025-04-01T05:40:00.534Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:40:00.535Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:40:00.537Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:40:00.537Z info: Detected 425 changes, updating web database
+2025-04-01T05:40:00.571Z error: Error in syncToWebDB: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:40:10.547Z warn: Previous sync still running, skipping this run
+2025-04-01T05:40:14.448Z error: Sync process failed: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:40:14.449Z error: Unhandled error in sync process: duplicate key value violates unique constraint "acc_master_pkey"
+2025-04-01T05:40:16.801Z info: Shutting down sync service...
+2025-04-01T05:40:16.806Z info: All database connections closed
+2025-04-01T05:52:12.346Z info: Web database connected successfully
+2025-04-01T05:52:12.353Z info: Started database connections
+2025-04-01T05:52:12.354Z info: Scheduling sync process to run every 10 seconds
+2025-04-01T05:52:12.381Z info: Server is running on port 5000
+2025-04-01T05:52:12.382Z info: Sync service started successfully
+2025-04-01T05:52:20.433Z info: Starting sync process...
+2025-04-01T05:52:20.532Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:52:21.912Z info: Local database connected successfully
+2025-04-01T05:52:21.946Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:52:21.948Z info: Loading previous database snapshot
+2025-04-01T05:52:21.949Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:52:21.961Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:52:21.968Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:52:21.969Z info: Detected 425 changes, updating web database
+2025-04-01T05:52:30.500Z warn: Previous sync still running, skipping this run
+2025-04-01T05:52:40.578Z warn: Previous sync still running, skipping this run
+2025-04-01T05:52:50.661Z warn: Previous sync still running, skipping this run
+2025-04-01T05:53:00.723Z warn: Previous sync still running, skipping this run
+2025-04-01T05:53:10.789Z warn: Previous sync still running, skipping this run
+2025-04-01T05:53:15.731Z info: Processed 382 acc_master inserts
+2025-04-01T05:53:15.800Z error: Error in syncToWebDB: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:53:17.641Z error: Sync process failed: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:53:17.642Z error: Unhandled error in sync process: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:53:20.867Z info: Starting sync process...
+2025-04-01T05:53:20.947Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:53:20.963Z info: Local database connected successfully
+2025-04-01T05:53:21.004Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:53:21.005Z info: Loading previous database snapshot
+2025-04-01T05:53:21.006Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:53:21.010Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:53:21.016Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:53:21.017Z info: Detected 425 changes, updating web database
+2025-04-01T05:53:30.944Z warn: Previous sync still running, skipping this run
+2025-04-01T05:53:40.010Z warn: Previous sync still running, skipping this run
+2025-04-01T05:53:50.082Z warn: Previous sync still running, skipping this run
+2025-04-01T05:53:57.917Z info: Processed 382 acc_master inserts
+2025-04-01T05:53:57.953Z error: Error in syncToWebDB: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:53:59.607Z error: Sync process failed: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:53:59.608Z error: Unhandled error in sync process: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:54:00.142Z info: Starting sync process...
+2025-04-01T05:54:00.173Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:54:00.201Z info: Local database connected successfully
+2025-04-01T05:54:00.236Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:54:00.237Z info: Loading previous database snapshot
+2025-04-01T05:54:00.238Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:54:00.241Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:54:00.247Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:54:00.248Z info: Detected 425 changes, updating web database
+2025-04-01T05:54:10.204Z warn: Previous sync still running, skipping this run
+2025-04-01T05:54:20.238Z info: Processed 382 acc_master inserts
+2025-04-01T05:54:20.266Z warn: Previous sync still running, skipping this run
+2025-04-01T05:54:20.275Z error: Error in syncToWebDB: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:54:23.171Z error: Sync process failed: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:54:23.172Z error: Unhandled error in sync process: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:54:30.329Z info: Starting sync process...
+2025-04-01T05:54:30.362Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:54:30.378Z info: Local database connected successfully
+2025-04-01T05:54:30.414Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:54:30.415Z info: Loading previous database snapshot
+2025-04-01T05:54:30.416Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:54:30.420Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:54:30.426Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:54:30.427Z info: Detected 425 changes, updating web database
+2025-04-01T05:54:40.406Z warn: Previous sync still running, skipping this run
+2025-04-01T05:54:49.235Z info: Processed 382 acc_master inserts
+2025-04-01T05:54:49.269Z error: Error in syncToWebDB: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:54:50.476Z warn: Previous sync still running, skipping this run
+2025-04-01T05:54:50.929Z error: Sync process failed: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:54:50.930Z error: Unhandled error in sync process: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:55:00.543Z info: Starting sync process...
+2025-04-01T05:55:00.685Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:55:00.700Z info: Local database connected successfully
+2025-04-01T05:55:00.742Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:55:00.743Z info: Loading previous database snapshot
+2025-04-01T05:55:00.745Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:55:00.748Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:55:00.754Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:55:00.754Z info: Detected 425 changes, updating web database
+2025-04-01T05:55:10.638Z warn: Previous sync still running, skipping this run
+2025-04-01T05:55:20.728Z warn: Previous sync still running, skipping this run
+2025-04-01T05:55:30.780Z warn: Previous sync still running, skipping this run
+2025-04-01T05:55:32.999Z info: Processed 382 acc_master inserts
+2025-04-01T05:55:33.032Z error: Error in syncToWebDB: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:55:34.558Z error: Sync process failed: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:55:34.559Z error: Unhandled error in sync process: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:55:40.858Z info: Starting sync process...
+2025-04-01T05:55:40.899Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:55:40.914Z info: Local database connected successfully
+2025-04-01T05:55:40.951Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:55:40.953Z info: Loading previous database snapshot
+2025-04-01T05:55:40.954Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:55:40.958Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:55:40.964Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:55:40.964Z info: Detected 425 changes, updating web database
+2025-04-01T05:55:50.913Z warn: Previous sync still running, skipping this run
+2025-04-01T05:56:00.978Z warn: Previous sync still running, skipping this run
+2025-04-01T05:56:10.063Z warn: Previous sync still running, skipping this run
+2025-04-01T05:56:12.468Z info: Processed 382 acc_master inserts
+2025-04-01T05:56:12.571Z error: Error in syncToWebDB: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:56:16.151Z error: Sync process failed: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:56:16.152Z error: Unhandled error in sync process: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:56:20.149Z info: Starting sync process...
+2025-04-01T05:56:20.206Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:56:20.224Z info: Local database connected successfully
+2025-04-01T05:56:20.259Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:56:20.260Z info: Loading previous database snapshot
+2025-04-01T05:56:20.261Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:56:20.263Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:56:20.265Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:56:20.266Z info: Detected 425 changes, updating web database
+2025-04-01T05:56:30.231Z warn: Previous sync still running, skipping this run
+2025-04-01T05:56:40.313Z warn: Previous sync still running, skipping this run
+2025-04-01T05:56:50.408Z warn: Previous sync still running, skipping this run
+2025-04-01T05:57:00.494Z warn: Previous sync still running, skipping this run
+2025-04-01T05:57:05.949Z info: Processed 382 acc_master inserts
+2025-04-01T05:57:06.023Z error: Error in syncToWebDB: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:57:10.110Z error: Sync process failed: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:57:10.110Z error: Unhandled error in sync process: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:57:10.581Z info: Starting sync process...
+2025-04-01T05:57:10.613Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:57:10.632Z info: Local database connected successfully
+2025-04-01T05:57:10.678Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:57:10.679Z info: Loading previous database snapshot
+2025-04-01T05:57:10.680Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:57:10.683Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:57:10.690Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:57:10.691Z info: Detected 425 changes, updating web database
+2025-04-01T05:57:20.642Z warn: Previous sync still running, skipping this run
+2025-04-01T05:57:30.732Z warn: Previous sync still running, skipping this run
+2025-04-01T05:57:40.839Z warn: Previous sync still running, skipping this run
+2025-04-01T05:57:50.946Z warn: Previous sync still running, skipping this run
+2025-04-01T05:58:00.024Z warn: Previous sync still running, skipping this run
+2025-04-01T05:58:00.908Z info: Processed 382 acc_master inserts
+2025-04-01T05:58:01.457Z error: Error in syncToWebDB: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:58:07.974Z error: Sync process failed: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:58:07.975Z error: Unhandled error in sync process: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:58:10.123Z info: Starting sync process...
+2025-04-01T05:58:10.227Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:58:10.243Z info: Local database connected successfully
+2025-04-01T05:58:10.285Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:58:10.286Z info: Loading previous database snapshot
+2025-04-01T05:58:10.287Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:58:10.289Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:58:10.296Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:58:10.296Z info: Detected 425 changes, updating web database
+2025-04-01T05:58:20.210Z warn: Previous sync still running, skipping this run
+2025-04-01T05:58:30.270Z warn: Previous sync still running, skipping this run
+2025-04-01T05:58:40.352Z warn: Previous sync still running, skipping this run
+2025-04-01T05:58:45.117Z info: Processed 382 acc_master inserts
+2025-04-01T05:58:45.180Z error: Error in syncToWebDB: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:58:46.880Z error: Sync process failed: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:58:46.881Z error: Unhandled error in sync process: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:58:50.412Z info: Starting sync process...
+2025-04-01T05:58:50.444Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:58:50.464Z info: Local database connected successfully
+2025-04-01T05:58:50.507Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:58:50.508Z info: Loading previous database snapshot
+2025-04-01T05:58:50.509Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:58:50.511Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:58:50.520Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:58:50.520Z info: Detected 425 changes, updating web database
+2025-04-01T05:59:00.483Z warn: Previous sync still running, skipping this run
+2025-04-01T05:59:05.644Z info: Processed 382 acc_master inserts
+2025-04-01T05:59:05.679Z error: Error in syncToWebDB: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:59:07.454Z error: Sync process failed: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:59:07.455Z error: Unhandled error in sync process: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T05:59:10.553Z info: Starting sync process...
+2025-04-01T05:59:10.645Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T05:59:10.661Z info: Local database connected successfully
+2025-04-01T05:59:10.700Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T05:59:10.701Z info: Loading previous database snapshot
+2025-04-01T05:59:10.702Z info: No previous snapshot found, starting with empty data
+2025-04-01T05:59:10.705Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T05:59:10.710Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T05:59:10.711Z info: Detected 425 changes, updating web database
+2025-04-01T05:59:20.649Z warn: Previous sync still running, skipping this run
+2025-04-01T05:59:30.723Z warn: Previous sync still running, skipping this run
+2025-04-01T05:59:40.791Z warn: Previous sync still running, skipping this run
+2025-04-01T05:59:50.850Z warn: Previous sync still running, skipping this run
+2025-04-01T05:59:59.693Z info: Processed 382 acc_master inserts
+2025-04-01T05:59:59.796Z error: Error in syncToWebDB: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:00:00.925Z warn: Previous sync still running, skipping this run
+2025-04-01T06:00:04.965Z error: Sync process failed: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:00:04.966Z error: Unhandled error in sync process: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:00:10.002Z info: Starting sync process...
+2025-04-01T06:00:10.139Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:00:10.155Z info: Local database connected successfully
+2025-04-01T06:00:10.192Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:00:10.193Z info: Loading previous database snapshot
+2025-04-01T06:00:10.194Z info: No previous snapshot found, starting with empty data
+2025-04-01T06:00:10.198Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T06:00:10.206Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T06:00:10.207Z info: Detected 425 changes, updating web database
+2025-04-01T06:00:20.071Z warn: Previous sync still running, skipping this run
+2025-04-01T06:00:30.165Z warn: Previous sync still running, skipping this run
+2025-04-01T06:00:40.233Z warn: Previous sync still running, skipping this run
+2025-04-01T06:00:44.032Z info: Processed 382 acc_master inserts
+2025-04-01T06:00:44.136Z error: Error in syncToWebDB: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:00:49.145Z error: Sync process failed: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:00:49.146Z error: Unhandled error in sync process: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:00:50.321Z info: Starting sync process...
+2025-04-01T06:00:50.353Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:00:50.365Z info: Local database connected successfully
+2025-04-01T06:00:50.391Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:00:50.391Z info: Loading previous database snapshot
+2025-04-01T06:00:50.392Z info: No previous snapshot found, starting with empty data
+2025-04-01T06:00:50.395Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T06:00:50.400Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T06:00:50.401Z info: Detected 425 changes, updating web database
+2025-04-01T06:01:00.399Z warn: Previous sync still running, skipping this run
+2025-04-01T06:01:10.472Z warn: Previous sync still running, skipping this run
+2025-04-01T06:01:20.544Z warn: Previous sync still running, skipping this run
+2025-04-01T06:01:30.640Z warn: Previous sync still running, skipping this run
+2025-04-01T06:01:40.737Z warn: Previous sync still running, skipping this run
+2025-04-01T06:01:43.835Z info: Processed 382 acc_master inserts
+2025-04-01T06:01:43.870Z error: Error in syncToWebDB: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:01:49.831Z error: Sync process failed: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:01:49.832Z error: Unhandled error in sync process: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:01:50.831Z info: Starting sync process...
+2025-04-01T06:01:50.864Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:01:50.885Z info: Local database connected successfully
+2025-04-01T06:01:50.929Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:01:50.930Z info: Loading previous database snapshot
+2025-04-01T06:01:50.931Z info: No previous snapshot found, starting with empty data
+2025-04-01T06:01:50.934Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T06:01:50.941Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T06:01:50.942Z info: Detected 425 changes, updating web database
+2025-04-01T06:02:00.925Z warn: Previous sync still running, skipping this run
+2025-04-01T06:02:10.012Z warn: Previous sync still running, skipping this run
+2025-04-01T06:02:20.087Z warn: Previous sync still running, skipping this run
+2025-04-01T06:02:30.150Z warn: Previous sync still running, skipping this run
+2025-04-01T06:02:30.893Z info: Processed 382 acc_master inserts
+2025-04-01T06:02:31.042Z error: Error in syncToWebDB: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:02:33.968Z error: Sync process failed: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:02:33.969Z error: Unhandled error in sync process: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:02:40.218Z info: Starting sync process...
+2025-04-01T06:02:40.359Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:02:40.379Z info: Local database connected successfully
+2025-04-01T06:02:40.417Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:02:40.418Z info: Loading previous database snapshot
+2025-04-01T06:02:40.419Z info: No previous snapshot found, starting with empty data
+2025-04-01T06:02:40.422Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T06:02:40.429Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T06:02:40.429Z info: Detected 425 changes, updating web database
+2025-04-01T06:02:50.291Z warn: Previous sync still running, skipping this run
+2025-04-01T06:03:00.377Z warn: Previous sync still running, skipping this run
+2025-04-01T06:03:10.479Z warn: Previous sync still running, skipping this run
+2025-04-01T06:03:20.566Z warn: Previous sync still running, skipping this run
+2025-04-01T06:03:29.932Z info: Processed 382 acc_master inserts
+2025-04-01T06:03:30.024Z error: Error in syncToWebDB: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:03:30.659Z warn: Previous sync still running, skipping this run
+2025-04-01T06:03:36.273Z error: Sync process failed: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:03:36.274Z error: Unhandled error in sync process: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:03:40.754Z info: Starting sync process...
+2025-04-01T06:03:40.878Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:03:40.895Z info: Local database connected successfully
+2025-04-01T06:03:40.930Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:03:40.931Z info: Loading previous database snapshot
+2025-04-01T06:03:40.932Z info: No previous snapshot found, starting with empty data
+2025-04-01T06:03:40.937Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T06:03:40.942Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T06:03:40.942Z info: Detected 425 changes, updating web database
+2025-04-01T06:03:50.855Z warn: Previous sync still running, skipping this run
+2025-04-01T06:04:00.950Z warn: Previous sync still running, skipping this run
+2025-04-01T06:04:10.003Z warn: Previous sync still running, skipping this run
+2025-04-01T06:04:20.098Z warn: Previous sync still running, skipping this run
+2025-04-01T06:04:30.177Z warn: Previous sync still running, skipping this run
+2025-04-01T06:04:32.693Z info: Processed 382 acc_master inserts
+2025-04-01T06:04:32.795Z error: Error in syncToWebDB: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:04:37.095Z error: Sync process failed: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:04:37.096Z error: Unhandled error in sync process: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:04:40.280Z info: Starting sync process...
+2025-04-01T06:04:40.373Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:04:40.390Z info: Local database connected successfully
+2025-04-01T06:04:40.428Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:04:40.429Z info: Loading previous database snapshot
+2025-04-01T06:04:40.430Z info: No previous snapshot found, starting with empty data
+2025-04-01T06:04:40.434Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T06:04:40.438Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T06:04:40.439Z info: Detected 425 changes, updating web database
+2025-04-01T06:04:50.366Z warn: Previous sync still running, skipping this run
+2025-04-01T06:05:00.419Z warn: Previous sync still running, skipping this run
+2025-04-01T06:05:10.485Z warn: Previous sync still running, skipping this run
+2025-04-01T06:05:20.552Z warn: Previous sync still running, skipping this run
+2025-04-01T06:05:25.838Z info: Processed 382 acc_master inserts
+2025-04-01T06:05:25.941Z error: Error in syncToWebDB: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:05:28.548Z error: Sync process failed: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:05:28.549Z error: Unhandled error in sync process: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:05:30.618Z info: Starting sync process...
+2025-04-01T06:05:30.651Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:05:30.668Z info: Local database connected successfully
+2025-04-01T06:05:30.704Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:05:30.705Z info: Loading previous database snapshot
+2025-04-01T06:05:30.706Z info: No previous snapshot found, starting with empty data
+2025-04-01T06:05:30.708Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T06:05:30.712Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T06:05:30.712Z info: Detected 425 changes, updating web database
+2025-04-01T06:05:40.682Z warn: Previous sync still running, skipping this run
+2025-04-01T06:05:50.802Z warn: Previous sync still running, skipping this run
+2025-04-01T06:06:00.890Z warn: Previous sync still running, skipping this run
+2025-04-01T06:06:06.584Z info: Shutting down sync service...
+2025-04-01T06:06:12.225Z info: Processed 382 acc_master inserts
+2025-04-01T06:06:12.261Z error: Error in syncToWebDB: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:06:12.426Z info: Shutting down sync service...
+2025-04-01T06:18:35.145Z info: Web database connected successfully
+2025-04-01T06:18:35.152Z info: Started database connections
+2025-04-01T06:18:35.152Z info: Scheduling sync process to run every 10 seconds
+2025-04-01T06:18:35.171Z info: Server is running on port 5000
+2025-04-01T06:18:35.171Z info: Sync service started successfully
+2025-04-01T06:18:40.218Z info: Starting sync process...
+2025-04-01T06:18:40.482Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:18:40.619Z info: Local database connected successfully
+2025-04-01T06:18:40.653Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:18:40.655Z info: Loading previous database snapshot
+2025-04-01T06:18:40.657Z info: No previous snapshot found, starting with empty data
+2025-04-01T06:18:40.665Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T06:18:40.672Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T06:18:40.673Z info: Detected 425 changes, updating web database
+2025-04-01T06:18:50.305Z warn: Previous sync still running, skipping this run
+2025-04-01T06:19:00.395Z warn: Previous sync still running, skipping this run
+2025-04-01T06:19:10.506Z warn: Previous sync still running, skipping this run
+2025-04-01T06:19:20.605Z warn: Previous sync still running, skipping this run
+2025-04-01T06:19:26.851Z info: Processed 382 acc_master inserts
+2025-04-01T06:19:26.887Z error: Error in syncToWebDB: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:19:30.693Z warn: Previous sync still running, skipping this run
+2025-04-01T06:19:31.108Z error: Sync process failed: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:19:31.109Z error: Unhandled error in sync process: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:19:40.801Z info: Starting sync process...
+2025-04-01T06:19:40.990Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:19:41.010Z info: Local database connected successfully
+2025-04-01T06:19:41.049Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:19:41.050Z info: Loading previous database snapshot
+2025-04-01T06:19:41.050Z info: No previous snapshot found, starting with empty data
+2025-04-01T06:19:41.053Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T06:19:41.057Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T06:19:41.058Z info: Detected 425 changes, updating web database
+2025-04-01T06:19:50.870Z warn: Previous sync still running, skipping this run
+2025-04-01T06:19:52.654Z info: Shutting down sync service...
+2025-04-01T06:20:20.925Z info: Processed 382 acc_master inserts
+2025-04-01T06:20:21.027Z error: Error in syncToWebDB: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:20:23.835Z error: Sync process failed: there is no unique or exclusion constraint matching the ON CONFLICT specification
+2025-04-01T06:30:15.663Z info: Web database connected successfully
+2025-04-01T06:30:15.671Z info: Started database connections
+2025-04-01T06:30:15.672Z info: Scheduling sync process to run every 10 seconds
+2025-04-01T06:30:15.692Z info: Server is running on port 5000
+2025-04-01T06:30:15.693Z info: Sync service started successfully
+2025-04-01T06:30:20.735Z info: Starting sync process...
+2025-04-01T06:30:20.794Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:30:20.915Z info: Local database connected successfully
+2025-04-01T06:30:20.934Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:30:20.935Z info: Loading previous database snapshot
+2025-04-01T06:30:20.935Z info: No previous snapshot found, starting with empty data
+2025-04-01T06:30:20.942Z info: Diff results: 382 inserts, 0 updates, 0 deletes
+2025-04-01T06:30:20.945Z info: Diff results: 43 inserts, 0 updates, 0 deletes
+2025-04-01T06:30:20.946Z info: Detected 425 changes, updating web database
+2025-04-01T06:30:30.829Z warn: Previous sync still running, skipping this run
+2025-04-01T06:30:40.908Z warn: Previous sync still running, skipping this run
+2025-04-01T06:30:50.995Z warn: Previous sync still running, skipping this run
+2025-04-01T06:31:00.070Z warn: Previous sync still running, skipping this run
+2025-04-01T06:31:10.159Z warn: Previous sync still running, skipping this run
+2025-04-01T06:31:12.593Z info: Processed 382 acc_master inserts
+2025-04-01T06:31:20.253Z warn: Previous sync still running, skipping this run
+2025-04-01T06:31:24.370Z info: Processed 43 acc_users inserts
+2025-04-01T06:31:24.372Z info: Saving current database snapshot
+2025-04-01T06:31:24.393Z info: Snapshot compressed and saved successfully (17927 bytes)
+2025-04-01T06:31:24.393Z info: New snapshot saved successfully
+2025-04-01T06:31:24.677Z info: Sync process complete. Duration: 63942ms
+2025-04-01T06:31:30.339Z info: Starting sync process...
+2025-04-01T06:31:30.411Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:31:30.428Z info: Local database connected successfully
+2025-04-01T06:31:30.476Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:31:30.478Z info: Loading previous database snapshot
+2025-04-01T06:31:30.492Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:31:30.499Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:31:30.509Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:31:30.510Z info: No changes detected, skipping database update
+2025-04-01T06:31:30.620Z info: Sync process complete. Duration: 281ms
+2025-04-01T06:31:40.428Z info: Starting sync process...
+2025-04-01T06:31:40.905Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:31:40.923Z info: Local database connected successfully
+2025-04-01T06:31:40.960Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:31:40.961Z info: Loading previous database snapshot
+2025-04-01T06:31:40.973Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:31:40.981Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:31:40.990Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:31:40.991Z info: No changes detected, skipping database update
+2025-04-01T06:31:41.163Z info: Sync process complete. Duration: 735ms
+2025-04-01T06:31:50.517Z info: Starting sync process...
+2025-04-01T06:31:50.586Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:31:50.602Z info: Local database connected successfully
+2025-04-01T06:31:50.635Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:31:50.636Z info: Loading previous database snapshot
+2025-04-01T06:31:50.646Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:31:50.655Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:31:50.664Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:31:50.665Z info: No changes detected, skipping database update
+2025-04-01T06:31:50.701Z info: Sync process complete. Duration: 184ms
+2025-04-01T06:32:00.594Z info: Starting sync process...
+2025-04-01T06:32:00.827Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:32:00.845Z info: Local database connected successfully
+2025-04-01T06:32:00.893Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:32:00.894Z info: Loading previous database snapshot
+2025-04-01T06:32:00.903Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:32:00.912Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:32:00.923Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:32:00.924Z info: No changes detected, skipping database update
+2025-04-01T06:32:01.030Z info: Sync process complete. Duration: 436ms
+2025-04-01T06:32:10.689Z info: Starting sync process...
+2025-04-01T06:32:10.757Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:32:10.776Z info: Local database connected successfully
+2025-04-01T06:32:10.819Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:32:10.821Z info: Loading previous database snapshot
+2025-04-01T06:32:10.834Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:32:10.840Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:32:10.853Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:32:10.854Z info: No changes detected, skipping database update
+2025-04-01T06:32:10.962Z info: Sync process complete. Duration: 273ms
+2025-04-01T06:32:20.768Z info: Starting sync process...
+2025-04-01T06:32:20.798Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:32:20.820Z info: Local database connected successfully
+2025-04-01T06:32:20.865Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:32:20.865Z info: Loading previous database snapshot
+2025-04-01T06:32:20.878Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:32:20.884Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:32:20.893Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:32:20.894Z info: No changes detected, skipping database update
+2025-04-01T06:32:20.947Z info: Sync process complete. Duration: 179ms
+2025-04-01T06:32:30.823Z info: Starting sync process...
+2025-04-01T06:32:30.855Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:32:30.871Z info: Local database connected successfully
+2025-04-01T06:32:30.910Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:32:30.910Z info: Loading previous database snapshot
+2025-04-01T06:32:30.923Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:32:30.931Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:32:30.939Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:32:30.939Z info: No changes detected, skipping database update
+2025-04-01T06:32:31.034Z info: Sync process complete. Duration: 211ms
+2025-04-01T06:32:40.877Z info: Starting sync process...
+2025-04-01T06:32:40.907Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:32:40.927Z info: Local database connected successfully
+2025-04-01T06:32:40.962Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:32:40.963Z info: Loading previous database snapshot
+2025-04-01T06:32:40.977Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:32:40.983Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:32:40.992Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:32:40.993Z info: No changes detected, skipping database update
+2025-04-01T06:32:41.023Z info: Sync process complete. Duration: 146ms
+2025-04-01T06:32:50.968Z info: Starting sync process...
+2025-04-01T06:32:51.218Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:32:51.236Z info: Local database connected successfully
+2025-04-01T06:32:51.283Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:32:51.285Z info: Loading previous database snapshot
+2025-04-01T06:32:51.300Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:32:51.303Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:32:51.316Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:32:51.316Z info: No changes detected, skipping database update
+2025-04-01T06:32:51.423Z info: Sync process complete. Duration: 455ms
+2025-04-01T06:33:00.051Z info: Starting sync process...
+2025-04-01T06:33:00.116Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:33:00.134Z info: Local database connected successfully
+2025-04-01T06:33:00.194Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:33:00.194Z info: Loading previous database snapshot
+2025-04-01T06:33:00.205Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:33:00.214Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:33:00.224Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:33:00.224Z info: No changes detected, skipping database update
+2025-04-01T06:33:00.324Z info: Sync process complete. Duration: 273ms
+2025-04-01T06:33:10.131Z info: Starting sync process...
+2025-04-01T06:33:10.559Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:33:10.575Z info: Local database connected successfully
+2025-04-01T06:33:10.611Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:33:10.613Z info: Loading previous database snapshot
+2025-04-01T06:33:10.626Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:33:10.632Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:33:10.641Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:33:10.642Z info: No changes detected, skipping database update
+2025-04-01T06:33:10.700Z info: Sync process complete. Duration: 569ms
+2025-04-01T06:33:20.206Z info: Starting sync process...
+2025-04-01T06:33:20.298Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:33:20.314Z info: Local database connected successfully
+2025-04-01T06:33:20.361Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:33:20.362Z info: Loading previous database snapshot
+2025-04-01T06:33:20.378Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:33:20.384Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:33:20.394Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:33:20.395Z info: No changes detected, skipping database update
+2025-04-01T06:33:20.492Z info: Sync process complete. Duration: 286ms
+2025-04-01T06:33:30.285Z info: Starting sync process...
+2025-04-01T06:33:30.424Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:33:30.440Z info: Local database connected successfully
+2025-04-01T06:33:30.478Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:33:30.479Z info: Loading previous database snapshot
+2025-04-01T06:33:30.493Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:33:30.497Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:33:30.510Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:33:30.511Z info: No changes detected, skipping database update
+2025-04-01T06:33:30.629Z info: Sync process complete. Duration: 344ms
+2025-04-01T06:33:40.380Z info: Starting sync process...
+2025-04-01T06:33:40.461Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:33:40.485Z info: Local database connected successfully
+2025-04-01T06:33:40.525Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:33:40.527Z info: Loading previous database snapshot
+2025-04-01T06:33:40.539Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:33:40.546Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:33:40.556Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:33:40.556Z info: No changes detected, skipping database update
+2025-04-01T06:33:40.664Z info: Sync process complete. Duration: 284ms
+2025-04-01T06:33:50.450Z info: Starting sync process...
+2025-04-01T06:33:50.481Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:33:50.502Z info: Local database connected successfully
+2025-04-01T06:33:50.540Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:33:50.541Z info: Loading previous database snapshot
+2025-04-01T06:33:50.556Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:33:50.562Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:33:50.573Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:33:50.574Z info: No changes detected, skipping database update
+2025-04-01T06:33:50.604Z info: Sync process complete. Duration: 154ms
+2025-04-01T06:34:00.536Z info: Starting sync process...
+2025-04-01T06:34:00.570Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:34:00.586Z info: Local database connected successfully
+2025-04-01T06:34:00.623Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:34:00.624Z info: Loading previous database snapshot
+2025-04-01T06:34:00.637Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:34:00.644Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:34:00.653Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:34:00.654Z info: No changes detected, skipping database update
+2025-04-01T06:34:00.688Z info: Sync process complete. Duration: 152ms
+2025-04-01T06:34:10.613Z info: Starting sync process...
+2025-04-01T06:34:10.652Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:34:10.673Z info: Local database connected successfully
+2025-04-01T06:34:10.709Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:34:10.710Z info: Loading previous database snapshot
+2025-04-01T06:34:10.725Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:34:10.730Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:34:10.741Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:34:10.742Z info: No changes detected, skipping database update
+2025-04-01T06:34:10.861Z info: Sync process complete. Duration: 248ms
+2025-04-01T06:34:20.696Z info: Starting sync process...
+2025-04-01T06:34:20.740Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:34:20.766Z info: Local database connected successfully
+2025-04-01T06:34:20.798Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:34:20.799Z info: Loading previous database snapshot
+2025-04-01T06:34:20.812Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:34:20.817Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:34:20.825Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:34:20.825Z info: No changes detected, skipping database update
+2025-04-01T06:34:20.855Z info: Sync process complete. Duration: 159ms
+2025-04-01T06:34:30.774Z info: Starting sync process...
+2025-04-01T06:34:30.805Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:34:30.818Z info: Local database connected successfully
+2025-04-01T06:34:30.843Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:34:30.843Z info: Loading previous database snapshot
+2025-04-01T06:34:30.857Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:34:30.860Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:34:30.870Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:34:30.871Z info: No changes detected, skipping database update
+2025-04-01T06:34:30.906Z info: Sync process complete. Duration: 132ms
+2025-04-01T06:34:40.840Z info: Starting sync process...
+2025-04-01T06:34:40.979Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:34:40.992Z info: Local database connected successfully
+2025-04-01T06:34:41.035Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:34:41.036Z info: Loading previous database snapshot
+2025-04-01T06:34:41.048Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:34:41.055Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:34:41.064Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:34:41.065Z info: No changes detected, skipping database update
+2025-04-01T06:34:41.182Z info: Sync process complete. Duration: 343ms
+2025-04-01T06:34:50.911Z info: Starting sync process...
+2025-04-01T06:34:51.013Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:34:51.030Z info: Local database connected successfully
+2025-04-01T06:34:51.072Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:34:51.073Z info: Loading previous database snapshot
+2025-04-01T06:34:51.086Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:34:51.091Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:34:51.101Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:34:51.101Z info: No changes detected, skipping database update
+2025-04-01T06:34:51.218Z info: Sync process complete. Duration: 307ms
+2025-04-01T06:35:00.981Z info: Starting sync process...
+2025-04-01T06:35:01.049Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:35:01.065Z info: Local database connected successfully
+2025-04-01T06:35:01.100Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:35:01.101Z info: Loading previous database snapshot
+2025-04-01T06:35:01.114Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:35:01.121Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:35:01.130Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:35:01.131Z info: No changes detected, skipping database update
+2025-04-01T06:35:01.253Z info: Sync process complete. Duration: 272ms
+2025-04-01T06:35:10.062Z info: Starting sync process...
+2025-04-01T06:35:10.153Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:35:10.167Z info: Local database connected successfully
+2025-04-01T06:35:10.202Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:35:10.203Z info: Loading previous database snapshot
+2025-04-01T06:35:10.218Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:35:10.223Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:35:10.233Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:35:10.233Z info: No changes detected, skipping database update
+2025-04-01T06:35:10.308Z info: Sync process complete. Duration: 246ms
+2025-04-01T06:35:20.154Z info: Starting sync process...
+2025-04-01T06:35:20.300Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:35:20.314Z info: Local database connected successfully
+2025-04-01T06:35:20.345Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:35:20.346Z info: Loading previous database snapshot
+2025-04-01T06:35:20.360Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:35:20.366Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:35:20.374Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:35:20.375Z info: No changes detected, skipping database update
+2025-04-01T06:35:20.811Z info: Sync process complete. Duration: 657ms
+2025-04-01T06:35:30.251Z info: Starting sync process...
+2025-04-01T06:35:30.642Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:35:30.664Z info: Local database connected successfully
+2025-04-01T06:35:30.701Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:35:30.702Z info: Loading previous database snapshot
+2025-04-01T06:35:30.715Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:35:30.721Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:35:30.731Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:35:30.732Z info: No changes detected, skipping database update
+2025-04-01T06:35:31.269Z info: Sync process complete. Duration: 1018ms
+2025-04-01T06:35:40.334Z info: Starting sync process...
+2025-04-01T06:35:41.088Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:35:41.104Z info: Local database connected successfully
+2025-04-01T06:35:41.145Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:35:41.146Z info: Loading previous database snapshot
+2025-04-01T06:35:41.158Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:35:41.165Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:35:41.175Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:35:41.176Z info: No changes detected, skipping database update
+2025-04-01T06:35:41.214Z info: Sync process complete. Duration: 880ms
+2025-04-01T06:35:50.396Z info: Starting sync process...
+2025-04-01T06:35:50.508Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:35:50.523Z info: Local database connected successfully
+2025-04-01T06:35:50.563Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:35:50.564Z info: Loading previous database snapshot
+2025-04-01T06:35:50.584Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:35:50.599Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:35:50.622Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:35:50.630Z info: No changes detected, skipping database update
+2025-04-01T06:35:50.667Z info: Sync process complete. Duration: 271ms
+2025-04-01T06:36:00.475Z info: Starting sync process...
+2025-04-01T06:36:00.646Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:36:00.660Z info: Local database connected successfully
+2025-04-01T06:36:00.697Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:36:00.699Z info: Loading previous database snapshot
+2025-04-01T06:36:00.711Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:36:00.717Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:36:00.725Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:36:00.725Z info: No changes detected, skipping database update
+2025-04-01T06:36:00.850Z info: Sync process complete. Duration: 375ms
+2025-04-01T06:36:10.553Z info: Starting sync process...
+2025-04-01T06:36:10.783Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:36:10.812Z info: Local database connected successfully
+2025-04-01T06:36:10.844Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:36:10.845Z info: Loading previous database snapshot
+2025-04-01T06:36:10.857Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:36:10.865Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:36:10.874Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:36:10.875Z info: No changes detected, skipping database update
+2025-04-01T06:36:11.091Z info: Sync process complete. Duration: 538ms
+2025-04-01T06:36:20.654Z info: Starting sync process...
+2025-04-01T06:36:20.717Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:36:20.734Z info: Local database connected successfully
+2025-04-01T06:36:20.772Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:36:20.773Z info: Loading previous database snapshot
+2025-04-01T06:36:20.788Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:36:20.794Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:36:20.806Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:36:20.807Z info: No changes detected, skipping database update
+2025-04-01T06:36:21.024Z info: Sync process complete. Duration: 370ms
+2025-04-01T06:36:30.717Z info: Starting sync process...
+2025-04-01T06:36:30.790Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:36:30.807Z info: Local database connected successfully
+2025-04-01T06:36:30.847Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:36:30.847Z info: Loading previous database snapshot
+2025-04-01T06:36:30.860Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:36:30.866Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:36:30.877Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:36:30.878Z info: No changes detected, skipping database update
+2025-04-01T06:36:30.956Z info: Sync process complete. Duration: 239ms
+2025-04-01T06:36:40.807Z info: Starting sync process...
+2025-04-01T06:36:40.889Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:36:40.909Z info: Local database connected successfully
+2025-04-01T06:36:40.947Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:36:40.948Z info: Loading previous database snapshot
+2025-04-01T06:36:40.962Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:36:40.967Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:36:40.977Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:36:40.979Z info: No changes detected, skipping database update
+2025-04-01T06:36:41.094Z info: Sync process complete. Duration: 287ms
+2025-04-01T06:36:50.896Z info: Starting sync process...
+2025-04-01T06:36:51.027Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:36:51.044Z info: Local database connected successfully
+2025-04-01T06:36:51.083Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:36:51.084Z info: Loading previous database snapshot
+2025-04-01T06:36:51.096Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:36:51.103Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:36:51.113Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:36:51.114Z info: No changes detected, skipping database update
+2025-04-01T06:36:51.242Z info: Sync process complete. Duration: 346ms
+2025-04-01T06:37:00.965Z info: Starting sync process...
+2025-04-01T06:37:01.062Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:37:01.079Z info: Local database connected successfully
+2025-04-01T06:37:01.120Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:37:01.121Z info: Loading previous database snapshot
+2025-04-01T06:37:01.133Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:37:01.140Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:37:01.151Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:37:01.151Z info: No changes detected, skipping database update
+2025-04-01T06:37:01.677Z info: Sync process complete. Duration: 712ms
+2025-04-01T06:37:10.017Z info: Starting sync process...
+2025-04-01T06:37:10.176Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:37:10.190Z info: Local database connected successfully
+2025-04-01T06:37:10.222Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:37:10.223Z info: Loading previous database snapshot
+2025-04-01T06:37:10.238Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:37:10.246Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:37:10.257Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:37:10.258Z info: No changes detected, skipping database update
+2025-04-01T06:37:10.380Z info: Sync process complete. Duration: 363ms
+2025-04-01T06:37:20.110Z info: Starting sync process...
+2025-04-01T06:37:20.151Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:37:20.167Z info: Local database connected successfully
+2025-04-01T06:37:20.209Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:37:20.210Z info: Loading previous database snapshot
+2025-04-01T06:37:20.222Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:37:20.228Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:37:20.238Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:37:20.238Z info: No changes detected, skipping database update
+2025-04-01T06:37:20.313Z info: Sync process complete. Duration: 204ms
+2025-04-01T06:37:30.207Z info: Starting sync process...
+2025-04-01T06:37:30.349Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:37:30.368Z info: Local database connected successfully
+2025-04-01T06:37:30.407Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:37:30.408Z info: Loading previous database snapshot
+2025-04-01T06:37:30.422Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:37:30.430Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:37:30.440Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:37:30.441Z info: No changes detected, skipping database update
+2025-04-01T06:37:30.481Z info: Sync process complete. Duration: 275ms
+2025-04-01T06:37:40.305Z info: Starting sync process...
+2025-04-01T06:37:40.340Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:37:40.359Z info: Local database connected successfully
+2025-04-01T06:37:40.395Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:37:40.396Z info: Loading previous database snapshot
+2025-04-01T06:37:40.410Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:37:40.416Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:37:40.425Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:37:40.426Z info: No changes detected, skipping database update
+2025-04-01T06:37:40.588Z info: Sync process complete. Duration: 283ms
+2025-04-01T06:37:50.400Z info: Starting sync process...
+2025-04-01T06:37:50.521Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:37:50.546Z info: Local database connected successfully
+2025-04-01T06:37:50.578Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:37:50.579Z info: Loading previous database snapshot
+2025-04-01T06:37:50.589Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:37:50.594Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:37:50.604Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:37:50.605Z info: No changes detected, skipping database update
+2025-04-01T06:37:50.689Z info: Sync process complete. Duration: 289ms
+2025-04-01T06:38:00.507Z info: Starting sync process...
+2025-04-01T06:38:00.659Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:38:00.674Z info: Local database connected successfully
+2025-04-01T06:38:00.713Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:38:00.714Z info: Loading previous database snapshot
+2025-04-01T06:38:00.728Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:38:00.736Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:38:00.747Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:38:00.748Z info: No changes detected, skipping database update
+2025-04-01T06:38:00.864Z info: Sync process complete. Duration: 357ms
+2025-04-01T06:38:10.604Z info: Starting sync process...
+2025-04-01T06:38:10.694Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:38:10.710Z info: Local database connected successfully
+2025-04-01T06:38:10.748Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:38:10.749Z info: Loading previous database snapshot
+2025-04-01T06:38:10.764Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:38:10.769Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:38:10.781Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:38:10.781Z info: No changes detected, skipping database update
+2025-04-01T06:38:10.899Z info: Sync process complete. Duration: 295ms
+2025-04-01T06:38:20.691Z info: Starting sync process...
+2025-04-01T06:38:20.748Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:38:20.763Z info: Local database connected successfully
+2025-04-01T06:38:20.800Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:38:20.801Z info: Loading previous database snapshot
+2025-04-01T06:38:20.815Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:38:20.823Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:38:20.834Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:38:20.834Z info: No changes detected, skipping database update
+2025-04-01T06:38:20.934Z info: Sync process complete. Duration: 243ms
+2025-04-01T06:38:30.792Z info: Starting sync process...
+2025-04-01T06:38:30.826Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:38:30.843Z info: Local database connected successfully
+2025-04-01T06:38:30.881Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:38:30.881Z info: Loading previous database snapshot
+2025-04-01T06:38:30.897Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:38:30.902Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:38:30.913Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:38:30.914Z info: No changes detected, skipping database update
+2025-04-01T06:38:31.072Z info: Sync process complete. Duration: 280ms
+2025-04-01T06:38:40.860Z info: Starting sync process...
+2025-04-01T06:38:41.004Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:38:41.022Z info: Local database connected successfully
+2025-04-01T06:38:41.064Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:38:41.065Z info: Loading previous database snapshot
+2025-04-01T06:38:41.076Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:38:41.084Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:38:41.093Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:38:41.094Z info: No changes detected, skipping database update
+2025-04-01T06:38:41.210Z info: Sync process complete. Duration: 349ms
+2025-04-01T06:38:50.964Z info: Starting sync process...
+2025-04-01T06:38:51.040Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:38:51.057Z info: Local database connected successfully
+2025-04-01T06:38:51.097Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:38:51.098Z info: Loading previous database snapshot
+2025-04-01T06:38:51.112Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:38:51.119Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:38:51.130Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:38:51.131Z info: No changes detected, skipping database update
+2025-04-01T06:38:51.160Z info: Sync process complete. Duration: 196ms
+2025-04-01T06:39:00.043Z info: Starting sync process...
+2025-04-01T06:39:00.153Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:39:00.174Z info: Local database connected successfully
+2025-04-01T06:39:00.210Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:39:00.211Z info: Loading previous database snapshot
+2025-04-01T06:39:00.225Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:39:00.231Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:39:00.239Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:39:00.240Z info: No changes detected, skipping database update
+2025-04-01T06:39:00.358Z info: Sync process complete. Duration: 315ms
+2025-04-01T06:39:10.140Z info: Starting sync process...
+2025-04-01T06:39:10.291Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:39:10.306Z info: Local database connected successfully
+2025-04-01T06:39:10.348Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:39:10.349Z info: Loading previous database snapshot
+2025-04-01T06:39:10.362Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:39:10.368Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:39:10.381Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:39:10.382Z info: No changes detected, skipping database update
+2025-04-01T06:39:10.459Z info: Sync process complete. Duration: 319ms
+2025-04-01T06:39:20.213Z info: Starting sync process...
+2025-04-01T06:39:20.327Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:39:20.345Z info: Local database connected successfully
+2025-04-01T06:39:20.387Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:39:20.388Z info: Loading previous database snapshot
+2025-04-01T06:39:20.402Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:39:20.406Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:39:20.417Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:39:20.418Z info: No changes detected, skipping database update
+2025-04-01T06:39:20.531Z info: Sync process complete. Duration: 318ms
+2025-04-01T06:39:30.292Z info: Starting sync process...
+2025-04-01T06:39:30.464Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:39:30.481Z info: Local database connected successfully
+2025-04-01T06:39:30.523Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:39:30.524Z info: Loading previous database snapshot
+2025-04-01T06:39:30.536Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:39:30.542Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:39:30.552Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:39:30.553Z info: No changes detected, skipping database update
+2025-04-01T06:39:30.670Z info: Sync process complete. Duration: 378ms
+2025-04-01T06:39:40.382Z info: Starting sync process...
+2025-04-01T06:39:40.499Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:39:40.515Z info: Local database connected successfully
+2025-04-01T06:39:40.549Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:39:40.549Z info: Loading previous database snapshot
+2025-04-01T06:39:40.563Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:39:40.570Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:39:40.579Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:39:40.580Z info: No changes detected, skipping database update
+2025-04-01T06:39:40.705Z info: Sync process complete. Duration: 323ms
+2025-04-01T06:39:50.449Z info: Starting sync process...
+2025-04-01T06:39:50.534Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:39:50.553Z info: Local database connected successfully
+2025-04-01T06:39:50.590Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:39:50.592Z info: Loading previous database snapshot
+2025-04-01T06:39:50.604Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:39:50.609Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:39:50.620Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:39:50.621Z info: No changes detected, skipping database update
+2025-04-01T06:39:50.693Z info: Sync process complete. Duration: 243ms
+2025-04-01T06:40:00.534Z info: Starting sync process...
+2025-04-01T06:40:00.672Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:40:00.687Z info: Local database connected successfully
+2025-04-01T06:40:00.726Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:40:00.727Z info: Loading previous database snapshot
+2025-04-01T06:40:00.741Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:40:00.746Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:40:00.756Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:40:00.757Z info: No changes detected, skipping database update
+2025-04-01T06:40:00.877Z info: Sync process complete. Duration: 343ms
+2025-04-01T06:40:10.629Z info: Starting sync process...
+2025-04-01T06:40:10.707Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:40:10.723Z info: Local database connected successfully
+2025-04-01T06:40:10.762Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:40:10.764Z info: Loading previous database snapshot
+2025-04-01T06:40:10.789Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:40:10.800Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:40:10.813Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:40:10.815Z info: No changes detected, skipping database update
+2025-04-01T06:40:10.913Z info: Sync process complete. Duration: 284ms
+2025-04-01T06:40:20.724Z info: Starting sync process...
+2025-04-01T06:40:21.154Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:40:21.169Z info: Local database connected successfully
+2025-04-01T06:40:21.207Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:40:21.208Z info: Loading previous database snapshot
+2025-04-01T06:40:21.224Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:40:21.230Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:40:21.242Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:40:21.243Z info: No changes detected, skipping database update
+2025-04-01T06:40:21.365Z info: Sync process complete. Duration: 641ms
+2025-04-01T06:40:30.831Z info: Starting sync process...
+2025-04-01T06:40:30.982Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:40:30.997Z info: Local database connected successfully
+2025-04-01T06:40:31.043Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:40:31.044Z info: Loading previous database snapshot
+2025-04-01T06:40:31.059Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:40:31.066Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:40:31.078Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:40:31.079Z info: No changes detected, skipping database update
+2025-04-01T06:40:31.187Z info: Sync process complete. Duration: 356ms
+2025-04-01T06:40:40.946Z info: Starting sync process...
+2025-04-01T06:40:41.017Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:40:41.035Z info: Local database connected successfully
+2025-04-01T06:40:41.072Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:40:41.073Z info: Loading previous database snapshot
+2025-04-01T06:40:41.081Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:40:41.087Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:40:41.095Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:40:41.096Z info: No changes detected, skipping database update
+2025-04-01T06:40:41.222Z info: Sync process complete. Duration: 276ms
+2025-04-01T06:40:50.013Z info: Starting sync process...
+2025-04-01T06:40:50.131Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:40:50.149Z info: Local database connected successfully
+2025-04-01T06:40:50.184Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:40:50.185Z info: Loading previous database snapshot
+2025-04-01T06:40:50.199Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:40:50.205Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:40:50.217Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:40:50.217Z info: No changes detected, skipping database update
+2025-04-01T06:40:50.336Z info: Sync process complete. Duration: 323ms
+2025-04-01T06:41:00.102Z info: Starting sync process...
+2025-04-01T06:41:00.167Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:41:00.184Z info: Local database connected successfully
+2025-04-01T06:41:00.220Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:41:00.220Z info: Loading previous database snapshot
+2025-04-01T06:41:00.237Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:41:00.241Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:41:00.252Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:41:00.253Z info: No changes detected, skipping database update
+2025-04-01T06:41:00.371Z info: Sync process complete. Duration: 269ms
+2025-04-01T06:41:10.180Z info: Starting sync process...
+2025-04-01T06:41:10.304Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:41:10.327Z info: Local database connected successfully
+2025-04-01T06:41:10.365Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:41:10.365Z info: Loading previous database snapshot
+2025-04-01T06:41:10.379Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:41:10.385Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:41:10.394Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:41:10.394Z info: No changes detected, skipping database update
+2025-04-01T06:41:10.508Z info: Sync process complete. Duration: 328ms
+2025-04-01T06:41:20.251Z info: Starting sync process...
+2025-04-01T06:41:20.340Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:41:20.358Z info: Local database connected successfully
+2025-04-01T06:41:20.401Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:41:20.401Z info: Loading previous database snapshot
+2025-04-01T06:41:20.417Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:41:20.423Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:41:20.435Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:41:20.435Z info: No changes detected, skipping database update
+2025-04-01T06:41:20.472Z info: Sync process complete. Duration: 221ms
+2025-04-01T06:41:30.333Z info: Starting sync process...
+2025-04-01T06:41:30.477Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:41:30.495Z info: Local database connected successfully
+2025-04-01T06:41:30.532Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:41:30.533Z info: Loading previous database snapshot
+2025-04-01T06:41:30.546Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:41:30.552Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:41:30.563Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:41:30.563Z info: No changes detected, skipping database update
+2025-04-01T06:41:30.682Z info: Sync process complete. Duration: 349ms
+2025-04-01T06:41:40.410Z info: Starting sync process...
+2025-04-01T06:41:40.512Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:41:40.529Z info: Local database connected successfully
+2025-04-01T06:41:40.567Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:41:40.568Z info: Loading previous database snapshot
+2025-04-01T06:41:40.583Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:41:40.590Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:41:40.602Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:41:40.603Z info: No changes detected, skipping database update
+2025-04-01T06:41:40.700Z info: Sync process complete. Duration: 290ms
+2025-04-01T06:41:50.487Z info: Starting sync process...
+2025-04-01T06:41:50.548Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:41:50.561Z info: Local database connected successfully
+2025-04-01T06:41:50.611Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:41:50.612Z info: Loading previous database snapshot
+2025-04-01T06:41:50.636Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:41:50.648Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:41:50.663Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:41:50.663Z info: No changes detected, skipping database update
+2025-04-01T06:41:50.701Z info: Sync process complete. Duration: 214ms
+2025-04-01T06:42:00.592Z info: Starting sync process...
+2025-04-01T06:42:00.685Z info: Attempting connection to local DB: DSN=TASK;UID=DBA;PWD=(*$^);DatabaseName=TASK;
+2025-04-01T06:42:00.702Z info: Local database connected successfully
+2025-04-01T06:42:00.743Z info: Retrieved 382 records from acc_master, 44 from acc_users
+2025-04-01T06:42:00.744Z info: Loading previous database snapshot
+2025-04-01T06:42:00.756Z info: Snapshot loaded and decompressed successfully
+2025-04-01T06:42:00.762Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:42:00.776Z info: Diff results: 0 inserts, 0 updates, 0 deletes
+2025-04-01T06:42:00.777Z info: No changes detected, skipping database update
+2025-04-01T06:42:00.890Z info: Sync process complete. Duration: 298ms
+2025-04-01T06:42:03.961Z info: Shutting down sync service...
+2025-04-01T06:42:03.971Z info: All database connections closed

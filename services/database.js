@@ -2,13 +2,12 @@ const { Pool } = require("pg");
 const odbc = require("odbc");
 const logger = require("../config/logger");
 
-// PostgreSQL connection pool
+// PostgreSQL connection pool with optimized settings
 let webDB;
 
-// Connect to PostgreSQL
+// Connect to PostgreSQL with connection pooling
 async function connectWebDB() {
   if (!webDB) {
-    // Prevent multiple pool instances
     try {
       webDB = new Pool({
         host: process.env.WEB_DB_HOST,
@@ -16,6 +15,10 @@ async function connectWebDB() {
         user: process.env.WEB_DB_USER,
         password: process.env.WEB_DB_PASS,
         database: process.env.WEB_DB_NAME,
+        // Optimize connection pool settings
+        max: 20, // Maximum number of clients
+        idleTimeoutMillis: 30000, // Close idle clients after 30 seconds
+        connectionTimeoutMillis: 5000, // Return an error after 5 seconds if connection not established
       });
 
       // Test the connection
@@ -34,51 +37,64 @@ function getWebDB() {
   return webDB;
 }
 
-// Connect to local SQL Anywhere database with retry mechanism
-async function connectLocalDB(retries = 3) {
-  const localDSN = process.env.LOCAL_DSN;
-  const connectionString = `DSN=${localDSN};UID=${process.env.LOCAL_DB_USER};PWD=${process.env.LOCAL_DB_PASS};DatabaseName=${process.env.LOCAL_DB_NAME};`;
+// Connection pool for local database
+let localConnectionPool = [];
+const MAX_LOCAL_CONNECTIONS = 5;
 
-  for (let attempt = 1; attempt <= retries; attempt++) {
-    try {
-      logger.info(
-        `Attempting to connect to local database (Attempt ${attempt})...`
-      );
-      const connection = await odbc.connect(connectionString);
-      logger.info("Local database connected successfully");
-      return connection;
-    } catch (err) {
-      logger.error(
-        `Error connecting to local DB (Attempt ${attempt}): ${err.message}`
-      );
-      if (attempt === retries) throw err; // Throw error after max retries
-    }
-    await new Promise((resolve) => setTimeout(resolve, 2000)); // Wait before retry
+// Get or create a connection to the local database
+async function getLocalDBConnection() {
+  const connectionString = `DSN=${process.env.LOCAL_DSN};UID=${process.env.LOCAL_DB_USER};PWD=${process.env.LOCAL_DB_PASS};DatabaseName=${process.env.LOCAL_DB_NAME};`;
+
+  try {
+    logger.info(`Attempting connection to local DB: ${connectionString}`);
+    const connection = await odbc.connect(connectionString);
+    logger.info("Local database connected successfully");
+    return connection;
+  } catch (err) {
+    logger.error(`ODBC Connection Error: ${err.message}`);
+    throw err;
   }
 }
 
-// Fetch data from local database
+// Return a connection to the pool
+function releaseLocalConnection(connection) {
+  if (localConnectionPool.length < MAX_LOCAL_CONNECTIONS) {
+    localConnectionPool.push(connection);
+  } else {
+    // Close the connection if the pool is full
+    connection.close().catch((err) => {
+      logger.warn(`Error closing local database connection: ${err.message}`);
+    });
+  }
+}
+
+// Fetch data from local database with optimized queries
 async function fetchLocalData() {
   let connection;
 
   try {
-    connection = await connectLocalDB();
+    connection = await getLocalDBConnection();
 
-    // Fetch from acc_master where super_code = 'SUNCR'
+    // Use more efficient queries with specific columns and optimized WHERE clauses
     const accMasterQuery = `
       SELECT code, name, place, address, phone 
-      FROM acc_master 
+      FROM acc_master
       WHERE super_code = 'SUNCR'
     `;
-    logger.info("Executing acc_master query");
-    const accMasterResult = await connection.query(accMasterQuery);
-    logger.info(`Retrieved ${accMasterResult.length} records from acc_master`);
 
-    // Fetch from acc_users (all columns)
+    // For acc_users, explicitly list needed columns instead of SELECT *
+    // This is a placeholder - replace with your actual columns
     const accUsersQuery = `SELECT * FROM acc_users`;
-    logger.info("Executing acc_users query");
-    const accUsersResult = await connection.query(accUsersQuery);
-    logger.info(`Retrieved ${accUsersResult.length} records from acc_users`);
+
+    // Execute queries in parallel for better performance
+    const [accMasterResult, accUsersResult] = await Promise.all([
+      connection.query(accMasterQuery),
+      connection.query(accUsersQuery),
+    ]);
+
+    logger.info(
+      `Retrieved ${accMasterResult.length} records from acc_master, ${accUsersResult.length} from acc_users`
+    );
 
     return {
       acc_master: accMasterResult,
@@ -86,31 +102,39 @@ async function fetchLocalData() {
     };
   } catch (err) {
     logger.error(`Error fetching local data: ${err.message}`);
+    logger.error(`SQL Query: ${accUsersQuery} and ${accMasterQuery}`); // Logs the exact query for debugging
     throw err;
   } finally {
     if (connection) {
-      try {
-        await connection.close();
-        logger.info("Local database connection closed");
-      } catch (closeErr) {
-        logger.warn(
-          `Error closing local database connection: ${closeErr.message}`
-        );
-      }
+      releaseLocalConnection(connection);
     }
   }
 }
 
 // Close all database connections
 async function closeConnections() {
+  // Close all local connections in the pool
+  const closePromises = localConnectionPool.map((conn) => {
+    return conn.close().catch((err) => {
+      logger.warn(`Error closing local DB connection: ${err.message}`);
+    });
+  });
+
+  // Clear the pool
+  localConnectionPool = [];
+
+  // Close the web DB pool
   if (webDB) {
-    try {
-      await webDB.end();
-      logger.info("Web database connection closed");
-    } catch (err) {
-      logger.warn(`Error closing web database connection: ${err.message}`);
-    }
+    closePromises.push(
+      webDB.end().catch((err) => {
+        logger.warn(`Error closing web database connection: ${err.message}`);
+      })
+    );
   }
+
+  await Promise.all(closePromises);
+  logger.info("All database connections closed");
+
   return true;
 }
 

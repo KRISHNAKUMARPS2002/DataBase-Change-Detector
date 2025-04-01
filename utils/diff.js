@@ -1,44 +1,81 @@
 const crypto = require("crypto");
 const logger = require("../config/logger");
 
-// Calculate hash for a row
+// Cache for row hashes to avoid recalculating
+const hashCache = new Map();
+
+// Calculate hash for a row with caching
 function computeRowHash(row) {
-  return crypto.createHash("md5").update(JSON.stringify(row)).digest("hex");
+  const rowString = JSON.stringify(row);
+
+  // Check if we already calculated this hash
+  if (hashCache.has(rowString)) {
+    return hashCache.get(rowString);
+  }
+
+  // Calculate and cache the hash
+  const hash = crypto.createHash("md5").update(rowString).digest("hex");
+
+  // Store in cache (limit cache size to avoid memory issues)
+  if (hashCache.size > 10000) {
+    // Clear cache if it gets too large
+    hashCache.clear();
+  }
+
+  hashCache.set(rowString, hash);
+  return hash;
 }
 
-// Compute differences between old and new data
+// Compute differences between old and new data with optimized algorithm
 function computeDiff(oldData, newData, keyField) {
-  logger.info(`Computing diff using key field: ${keyField}`);
-
   // Create maps for faster lookups
-  const oldMap = {};
+  const oldMap = new Map();
+  const newMap = new Map();
+
+  // Pre-process old data
   for (const row of oldData) {
-    oldMap[row[keyField]] = { row, hash: computeRowHash(row) };
+    const key = row[keyField];
+    if (key) {
+      // Skip rows with undefined keys
+      oldMap.set(key, {
+        row,
+        hash: computeRowHash(row),
+      });
+    }
   }
 
-  const newMap = {};
+  // Pre-process new data
   for (const row of newData) {
-    newMap[row[keyField]] = { row, hash: computeRowHash(row) };
+    const key = row[keyField];
+    if (key) {
+      // Skip rows with undefined keys
+      newMap.set(key, {
+        row,
+        hash: computeRowHash(row),
+      });
+    }
   }
 
-  // Find insertions, updates, and deletions
+  // Find changes efficiently
   const inserts = [];
   const updates = [];
   const deletes = [];
 
-  // Check for new or updated rows
-  for (const key in newMap) {
-    if (!oldMap[key]) {
-      inserts.push(newMap[key].row);
-    } else if (newMap[key].hash !== oldMap[key].hash) {
-      updates.push(newMap[key].row);
+  // Process new data first to find inserts and updates
+  for (const [key, newItem] of newMap.entries()) {
+    const oldItem = oldMap.get(key);
+
+    if (!oldItem) {
+      inserts.push(newItem.row);
+    } else if (newItem.hash !== oldItem.hash) {
+      updates.push(newItem.row);
     }
   }
 
-  // Check for deletions
-  for (const key in oldMap) {
-    if (!newMap[key]) {
-      deletes.push(oldMap[key].row);
+  // Find deleted items
+  for (const [key, oldItem] of oldMap.entries()) {
+    if (!newMap.has(key)) {
+      deletes.push(oldItem.row);
     }
   }
 
