@@ -4,7 +4,11 @@ const logger = require("../config/logger");
 // Cache for row hashes to avoid recalculating
 const hashCache = new Map();
 
-// Calculate hash for a row with caching
+/**
+ * Calculate hash for a row with caching
+ * @param {Object} row - Row data to hash
+ * @returns {string} MD5 hash of the row
+ */
 function computeRowHash(row) {
   const rowString = JSON.stringify(row);
 
@@ -20,14 +24,25 @@ function computeRowHash(row) {
   if (hashCache.size > 10000) {
     // Clear cache if it gets too large
     hashCache.clear();
+    logger.debug("Row hash cache cleared due to size limit");
   }
 
   hashCache.set(rowString, hash);
   return hash;
 }
 
-// Compute differences between old and new data with optimized algorithm
+/**
+ * Compute differences between old and new datasets
+ * @param {Array} oldData - Previous dataset
+ * @param {Array} newData - Current dataset
+ * @param {string} keyField - Primary key field name
+ * @returns {Object} Object with inserts, updates, and deletes arrays
+ */
 function computeDiff(oldData, newData, keyField) {
+  // Handle null/undefined inputs gracefully
+  if (!Array.isArray(oldData)) oldData = [];
+  if (!Array.isArray(newData)) newData = [];
+
   // Create maps for faster lookups
   const oldMap = new Map();
   const newMap = new Map();
@@ -35,24 +50,28 @@ function computeDiff(oldData, newData, keyField) {
   // Pre-process old data
   for (const row of oldData) {
     const key = row[keyField];
-    if (key) {
-      // Skip rows with undefined keys
+    if (key !== undefined && key !== null) {
+      // Skip rows with undefined/null keys
       oldMap.set(key, {
         row,
         hash: computeRowHash(row),
       });
+    } else {
+      logger.warn(`Skipping row in oldData with missing ${keyField}`);
     }
   }
 
   // Pre-process new data
   for (const row of newData) {
     const key = row[keyField];
-    if (key) {
-      // Skip rows with undefined keys
+    if (key !== undefined && key !== null) {
+      // Skip rows with undefined/null keys
       newMap.set(key, {
         row,
         hash: computeRowHash(row),
       });
+    } else {
+      logger.warn(`Skipping row in newData with missing ${keyField}`);
     }
   }
 
@@ -86,6 +105,18 @@ function computeDiff(oldData, newData, keyField) {
   return { inserts, updates, deletes };
 }
 
+/**
+ * Clear the hash cache
+ * Useful when memory usage needs to be reduced
+ */
+function clearHashCache() {
+  const size = hashCache.size;
+  hashCache.clear();
+  logger.debug(`Hash cache cleared, removed ${size} entries`);
+  return size;
+}
+
 module.exports = {
   computeDiff,
+  clearHashCache,
 };
